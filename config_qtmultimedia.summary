@@ -1,0 +1,41 @@
+
+Qt Multimedia:
+  Spatial Audio .......................... yes
+  Spatial Audio (Quick3D) ................ yes
+  Low level Audio Backend:
+    ALSA (experimental) .................. no
+    PulseAudio ........................... yes
+    PipeWire ............................. yes
+    MMRenderer ........................... no
+    CoreAudio ............................ no
+    AAudio (Android) ..................... no
+    Web Assembly ......................... no
+    WASAPI (Windows Audio Session API) ... no
+  Plugin:
+    QtMM GStreamer plugin ................ no
+    FFmpeg ............................... yes
+    FFmpeg plugin features:
+      PipeWire screen capture ............ yes
+    MMRenderer ........................... no
+    AVFoundation ......................... no
+    Native Android backend (deprecated) .. no
+    Native Windows backend (deprecated) .. no
+    Web Assembly ......................... no
+  Hardware acceleration and features:
+    Video for Linux ...................... yes
+    VAAPI support ........................ yes
+    Linux DMA buffer support ............. yes
+    VideoToolbox ......................... no
+SBOM:
+  Generate SBOM .......................... yes
+  Generate SPDX v2.3 ..................... yes
+  Generate SPDX v2.3 JSON ................ yes
+  Verify   SPDX v2.3 JSON ................ yes
+  Generate CycloneDX v1.6 ................ yes
+  Verify   CycloneDX v1.6 ................ yes
+  SBOM Python interpreter ................ /usr/bin/python3.9 (version 3.9.25)
+  sbom2doc path .......................... /usr/local/bin/sbom2doc
+  sbomaudit path ......................... /usr/local/bin/sbomaudit
+  Generate source SPDX SBOM .............. yes
+  Verify   source SPDX SBOM .............. yes
+  reuse path ............................. /usr/local/bin/reuse
