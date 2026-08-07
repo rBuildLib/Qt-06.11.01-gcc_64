@@ -1,0 +1,1 @@
+#include <QtQuick3DSpatialAudio/qtquick3dspatialaudioversion.h> // IWYU pragma: export

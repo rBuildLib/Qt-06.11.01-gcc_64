@@ -1,0 +1,1 @@
+#include <QtSerialBus/qcanuniqueiddescription.h> // IWYU pragma: export

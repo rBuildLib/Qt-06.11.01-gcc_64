@@ -1,0 +1,1 @@
+#include <QtSerialBus/qcansignaldescription.h> // IWYU pragma: export

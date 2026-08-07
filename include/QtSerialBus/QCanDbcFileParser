@@ -1,0 +1,1 @@
+#include <QtSerialBus/qcandbcfileparser.h> // IWYU pragma: export

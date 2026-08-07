@@ -1,0 +1,1 @@
+#include <QtSerialBus/qcanframeprocessor.h> // IWYU pragma: export

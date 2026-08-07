@@ -1,0 +1,1 @@
+#include <QtSerialBus/qmodbusrtuserialclient.h> // IWYU pragma: export

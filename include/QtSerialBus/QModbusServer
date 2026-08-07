@@ -1,0 +1,1 @@
+#include <QtSerialBus/qmodbusserver.h> // IWYU pragma: export
