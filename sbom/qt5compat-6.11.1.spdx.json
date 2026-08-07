@@ -1,0 +1,1418 @@
+{
+    "SPDXID": "SPDXRef-DOCUMENT",
+    "creationInfo": {
+        "created": "2026-05-08T01:23:28Z",
+        "creators": [
+            "Organization: TheQtCompany",
+            "Tool: Qt Build System"
+        ],
+        "comment": "This SPDX document was created from CMake 3.30.5, using the qt\nbuild system from https://code.qt.io/cgit/qt/qtbase.git/tree/cmake/QtPublicSbomHelpers.cmake"
+    },
+    "dataLicense": "CC0-1.0",
+    "externalDocumentRefs": [
+        {
+            "externalDocumentId": "DocumentRef-qtbase-ca2839a29ee1",
+            "spdxDocument": "https://qt.io/spdxdocs/qtbase-59c81a3c+HEAD-host-linux-x86_64-target-linux-x86_64-2996501e-1499-5993-9a4d-0e34e16305d6",
+            "checksum": {
+                "algorithm": "SHA1",
+                "checksumValue": "0d02c6b923def99f00aea0c27fefa8cf4d39873b"
+            }
+        },
+        {
+            "externalDocumentId": "DocumentRef-qtdeclarative-a30c4980599d",
+            "spdxDocument": "https://qt.io/spdxdocs/qtdeclarative-a02bed44+HEAD-host-linux-x86_64-target-linux-x86_64-85d456c4-4982-586f-bf33-19fe4a385734",
+            "checksum": {
+                "algorithm": "SHA1",
+                "checksumValue": "3007352d962c9346e66a0542ded83a8146a6b230"
+            }
+        },
+        {
+            "externalDocumentId": "DocumentRef-qtshadertools-d68980f175e0",
+            "spdxDocument": "https://qt.io/spdxdocs/qtshadertools-6.11.1-host-linux-x86_64-target-linux-x86_64-506af216-9c89-5125-8e9c-ff2dbe19383c",
+            "checksum": {
+                "algorithm": "SHA1",
+                "checksumValue": "6a5b597ce3fa25a1183e69baa34170a9b219b825"
+            }
+        }
+    ],
+    "hasExtractedLicensingInfos": [
+        {
+            "extractedText": "Licensees holding valid commercial Qt licenses may use this software in\naccordance with the the terms contained in a written agreement between\nyou and The Qt Company. Alternatively, the terms and conditions that were\naccepted by the licensee when buying and/or downloading the\nsoftware do apply.\n\nFor the latest licensing terms and conditions, see https://www.qt.io/terms-conditions.\nFor further information use the contact form at https://www.qt.io/contact-us.\n",
+            "licenseId": "LicenseRef-Qt-Commercial"
+        }
+    ],
+    "name": "qt5compat-6.11.1",
+    "spdxVersion": "SPDX-2.3",
+    "documentNamespace": "https://qt.io/spdxdocs/qt5compat-6.11.1-host-linux-x86_64-target-linux-x86_64-adbfcaf0-0dfa-582c-b6d2-592dcb13f0bc",
+    "packages": [
+        {
+            "SPDXID": "SPDXRef-Package-qt5compat-11f9bc1e8a5e",
+            "builtDate": "2026-05-08T01:23:28Z",
+            "comment": "Built by CMake 3.30.5 with RelWithDebInfo configuration for Linux (x86_64)\nqt5compat was configured with:\n    qt-configure-module <sources>/qt5compat -- -DFFMPEG_DIR=/usr/local/FFmpeg-n7.1.3 -DQT_DEPLOY_FFMPEG=TRUE -DINPUT_headersclean=ON -DCMAKE_MAKE_PROGRAM=/opt/ninja-1.12.1-linux-x64/ninja -DQT_INSTALL_CONFIG_INFO_FILES=ON -DQT_GENERATE_SBOM=ON -DQT_GENERATE_SOURCE_SBOM=ON -DQT_SBOM_VERIFY_SPDX_V2=ON -DQT_SBOM_REQUIRE_GENERATE_SPDX_V2_JSON=ON -DQT_SBOM_REQUIRE_VERIFY_SPDX_V2=ON -DQT_SBOM_VERIFY_CYDX_V1_6=ON -DQT_SBOM_REQUIRE_GENERATE_CYDX_V1_6=ON -DQT_SBOM_REQUIRE_VERIFY_CYDX_V1_6=ON -DQT_SBOM_PYTHON_INTERP=/usr/bin/python3 -DQT_SBOM_PYTHON_APPS_PATH=/usr/local/bin -DQT_LINT_SOURCE_SBOM=ON -DQT_INTERNAL_SBOM_DEFAULT_CHECKS=ON -DQT_INTERNAL_SBOM_AUDIT=ON -DQT_INTERNAL_SBOM_AUDIT_NO_ERROR=ON -DQT_BUILD_TESTS=OFF -DCMAKE_AUTOGEN_VERBOSE=ON -DCMAKE_MESSAGE_LOG_LEVEL=STATUS -DCMAKE_C_COMPILER_LAUNCHER=sccache -DCMAKE_CXX_COMPILER_LAUNCHER=sccache\n",
+            "copyrightText": "Copyright (C) The Qt Company Ltd. and other contributors.",
+            "downloadLocation": "git://code.qt.io/qt/qt5compat.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt5compat:6.11.1:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qt5compat@6.11.1",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "homepage": "https://qt.io",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "name": "qt5compat",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.11.1"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qt5compat-qt-3rdparty-sources-Core5Compat-Attribution-qbig5codecs-11f9bc1e8a5e",
+            "comment": "\nCMake target name: Core5Compat_Attribution_qbig5codecs\n    Information extracted from:\n     /src_dir/qt5compat/src/core5/codecs/qt_attribution.json\n    Entry index: 0\n    Id: qbig5codecs\n    Name: Text Codecs: Big5, Big5-HKSCS\n    Description: The Big5 codecs (QBig5Codec, QBig5hkscsCodec)\nprovide conversion to and from the Big5 encodings.\n    Qt usage: Used in Qt Core if ICU is not used. Configure with -icu to avoid.\n    License: BSD 2-clause \"Simplified\" License\n    License file: LICENSE.QBIG5CODEC.txt\n",
+            "copyrightText": "Copyright (C) 2000  Ming-Che Chuang\nCopyright (C) 2001, 2002  James Su, Turbolinux Inc.\nCopyright (C) 2002  WU Yi, HancomLinux Inc.\nCopyright (C) 2001, 2002  Anthony Fok, ThizLinux Laboratory Ltd.",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/qt/qt5compat?library_name=Core5Compat_Attribution_qbig5codecs",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qt5compat-Core5Compat_Attribution_qbig5codecs?vcs_url=https://code.qt.io/qt/qt5compat.git&library_name=Core5Compat_Attribution_qbig5codecs",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "BSD-2-Clause",
+            "licenseDeclared": "NOASSERTION",
+            "name": "Core5Compat_Attribution_qbig5codecs",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "unknown"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qt5compat-qt-3rdparty-sources-Core5Compat-Attribution-qeucjpcodec-11f9bc1e8a5e",
+            "comment": "\nCMake target name: Core5Compat_Attribution_qeucjpcodec\n    Information extracted from:\n     /src_dir/qt5compat/src/core5/codecs/qt_attribution.json\n    Entry index: 1\n    Id: qeucjpcodec\n    Name: Text Codec: EUC-JP\n    Description: The EUC-JP text codec provides conversion to and from EUC-JP,\nthe main legacy encoding for Unix machines in Japan.\n    Qt usage: Used in Qt Core if ICU is not used. Configure with -icu to avoid.\n    License: BSD 2-clause \"Simplified\" License\n    License file: LICENSE.QEUCJPCODEC.txt\n",
+            "copyrightText": "Copyright (C) 1999 Serika Kurusugawa.",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/qt/qt5compat?library_name=Core5Compat_Attribution_qeucjpcodec",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qt5compat-Core5Compat_Attribution_qeucjpcodec?vcs_url=https://code.qt.io/qt/qt5compat.git&library_name=Core5Compat_Attribution_qeucjpcodec",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "BSD-2-Clause",
+            "licenseDeclared": "NOASSERTION",
+            "name": "Core5Compat_Attribution_qeucjpcodec",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "unknown"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qt5compat-qt-3rdparty-sources-Core5Compat-Attribution-qeuckrcodec-11f9bc1e8a5e",
+            "comment": "\nCMake target name: Core5Compat_Attribution_qeuckrcodec\n    Information extracted from:\n     /src_dir/qt5compat/src/core5/codecs/qt_attribution.json\n    Entry index: 2\n    Id: qeuckrcodec\n    Name: Text Codec: EUC-KR\n    Description: The EUC-KR text codec provides conversion to and from EUC-KR, KR,\nthe main legacy encoding for Unix machines in Korea.\n    Qt usage: Used in Qt Core if ICU is not used. Configure with -icu to avoid.\n    License: BSD 2-clause \"Simplified\" License\n    License file: LICENSE.QEUCKRCODEC.txt\n",
+            "copyrightText": "Copyright (C) 1999-2000 Mizi Research Inc.",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/qt/qt5compat?library_name=Core5Compat_Attribution_qeuckrcodec",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qt5compat-Core5Compat_Attribution_qeuckrcodec?vcs_url=https://code.qt.io/qt/qt5compat.git&library_name=Core5Compat_Attribution_qeuckrcodec",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "BSD-2-Clause",
+            "licenseDeclared": "NOASSERTION",
+            "name": "Core5Compat_Attribution_qeuckrcodec",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "unknown"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qt5compat-qt-3rdparty-sources-Core5Compat-Attribution-qjiscodec-11f9bc1e8a5e",
+            "comment": "\nCMake target name: Core5Compat_Attribution_qjiscodec\n    Information extracted from:\n     /src_dir/qt5compat/src/core5/codecs/qt_attribution.json\n    Entry index: 3\n    Id: qjiscodec\n    Name: Text Codec: ISO 2022-JP (JIS)\n    Description: The ISO 2022-JP (JIS) text codec provides conversion to and from ISO 2022-JP.\n    Qt usage: Used in Qt Core if ICU is not used. Configure with -icu to avoid.\n    License: BSD 2-clause \"Simplified\" License\n    License file: LICENSE.QJISCODEC.txt\n",
+            "copyrightText": "Copyright (C) 1999 Serika Kurusugawa.",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/qt/qt5compat?library_name=Core5Compat_Attribution_qjiscodec",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qt5compat-Core5Compat_Attribution_qjiscodec?vcs_url=https://code.qt.io/qt/qt5compat.git&library_name=Core5Compat_Attribution_qjiscodec",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "BSD-2-Clause",
+            "licenseDeclared": "NOASSERTION",
+            "name": "Core5Compat_Attribution_qjiscodec",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "unknown"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qt5compat-qt-3rdparty-sources-Core5Compat-Attribution-qsjiscodec-11f9bc1e8a5e",
+            "comment": "\nCMake target name: Core5Compat_Attribution_qsjiscodec\n    Information extracted from:\n     /src_dir/qt5compat/src/core5/codecs/qt_attribution.json\n    Entry index: 4\n    Id: qsjiscodec\n    Name: Text Codec: Shift-JIS\n    Description: The Shift-JIS text codec provides conversion to and from Shift-JIS.\n    Qt usage: Used in Qt Core if ICU is not used. Configure with -icu to avoid.\n    License: BSD 2-clause \"Simplified\" License\n    License file: LICENSE.QSJISCODEC.txt\n",
+            "copyrightText": "Copyright (C) 1999 Serika Kurusugawa.",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/qt/qt5compat?library_name=Core5Compat_Attribution_qsjiscodec",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qt5compat-Core5Compat_Attribution_qsjiscodec?vcs_url=https://code.qt.io/qt/qt5compat.git&library_name=Core5Compat_Attribution_qsjiscodec",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "BSD-2-Clause",
+            "licenseDeclared": "NOASSERTION",
+            "name": "Core5Compat_Attribution_qsjiscodec",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "unknown"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qt5compat-qt-3rdparty-sources-Core5Compat-Attribution-qtsciicodec-11f9bc1e8a5e",
+            "comment": "\nCMake target name: Core5Compat_Attribution_qtsciicodec\n    Information extracted from:\n     /src_dir/qt5compat/src/core5/codecs/qt_attribution.json\n    Entry index: 5\n    Id: qtsciicodec\n    Name: Text Codec: TSCII\n    Description: The TSCII text codec provides conversion to and from the Tamil TSCII\nencoding.\n    Qt usage: Used in Qt Core.\n    License: BSD 2-clause \"Simplified\" License\n    License file: LICENSE.QTSCIICODEC.txt\n",
+            "copyrightText": "Copyright (C) 2000 Hans Petter Bieker.",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/qt/qt5compat?library_name=Core5Compat_Attribution_qtsciicodec",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qt5compat-Core5Compat_Attribution_qtsciicodec?vcs_url=https://code.qt.io/qt/qt5compat.git&library_name=Core5Compat_Attribution_qtsciicodec",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "BSD-2-Clause",
+            "licenseDeclared": "NOASSERTION",
+            "name": "Core5Compat_Attribution_qtsciicodec",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "unknown"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qt5compat-qt-3rdparty-sources-Core5Compat-Attribution-qbkcodec-11f9bc1e8a5e",
+            "comment": "\nCMake target name: Core5Compat_Attribution_qbkcodec\n    Information extracted from:\n     /src_dir/qt5compat/src/core5/codecs/qt_attribution.json\n    Entry index: 6\n    Id: qbkcodec\n    Name: Text Codec: GBK\n    Description: The GBK codec provides conversion to and from the Chinese\nGB18030/GBK/GB2312 encoding.\n    Qt usage: Used in Qt Core if ICU is not used. Configure with -icu to avoid.\n    License: BSD 2-clause \"Simplified\" License\n    License file: LICENSE.QBKCODEC.txt\n",
+            "copyrightText": "Copyright (C) 2000 TurboLinux, Inc.  Written by Justin Yu and Sean Chen.\nCopyright (C) 2001, 2002 Turbolinux, Inc.  Written by James Su.\nCopyright (C) 2001, 2002 ThizLinux Laboratory Ltd.  Written by Anthony Fok.",
+            "downloadLocation": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/qt/qt5compat?library_name=Core5Compat_Attribution_qbkcodec",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qt5compat-Core5Compat_Attribution_qbkcodec?vcs_url=https://code.qt.io/qt/qt5compat.git&library_name=Core5Compat_Attribution_qbkcodec",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "BSD-2-Clause",
+            "licenseDeclared": "NOASSERTION",
+            "name": "Core5Compat_Attribution_qbkcodec",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "unknown"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qt5compat-qt-module-Core5Compat-11f9bc1e8a5e",
+            "comment": "\nCMake target name: Core5Compat\nCMake exported target name: Qt6::Core5Compat\nContained in CMake package: Qt6Core5Compat\n",
+            "copyrightText": "Copyright (C) The Qt Company Ltd. and other contributors.",
+            "downloadLocation": "git://code.qt.io/qt/qt5compat.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/qt/qt5compat?library_name=Core5Compat#src/core5",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qt5compat-Core5Compat?vcs_url=https://code.qt.io/qt/qt5compat.git&library_name=Core5Compat#src/core5",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.11.1:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt5compat:6.11.1:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": true,
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseDeclared": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "name": "Core5Compat",
+            "packageVerificationCode": {
+                "packageVerificationCodeValue": "bab7be6e6c65ca2c08bc70763953965bc66cedb1"
+            },
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.11.1"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qt5compat-qt-plugin-qtgraphicaleffectsprivate-11f9bc1e8a5e",
+            "comment": "\nCMake target name: qtgraphicaleffectsprivate\n",
+            "copyrightText": "Copyright (C) The Qt Company Ltd. and other contributors.",
+            "downloadLocation": "git://code.qt.io/qt/qt5compat.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/qt/qt5compat?library_name=qtgraphicaleffectsprivate#src/imports/graphicaleffects5/private",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qt5compat-qtgraphicaleffectsprivate?vcs_url=https://code.qt.io/qt/qt5compat.git&library_name=qtgraphicaleffectsprivate#src/imports/graphicaleffects5/private",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.11.1:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt5compat:6.11.1:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": true,
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseDeclared": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "name": "qtgraphicaleffectsprivate",
+            "packageVerificationCode": {
+                "packageVerificationCodeValue": "a4a84db4431d8c90f5f3a7305f6ec9b342d901a9"
+            },
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.11.1"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qt5compat-qt-plugin-qtgraphicaleffectsplugin-11f9bc1e8a5e",
+            "comment": "\nCMake target name: qtgraphicaleffectsplugin\n",
+            "copyrightText": "Copyright (C) The Qt Company Ltd. and other contributors.",
+            "downloadLocation": "git://code.qt.io/qt/qt5compat.git",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/qt/qt5compat?library_name=qtgraphicaleffectsplugin#src/imports/graphicaleffects5",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:generic/TheQtCompany/qt5compat-qtgraphicaleffectsplugin?vcs_url=https://code.qt.io/qt/qt5compat.git&library_name=qtgraphicaleffectsplugin#src/imports/graphicaleffects5",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt:6.11.1:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:qt:qt5compat:6.11.1:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": true,
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseDeclared": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "name": "qtgraphicaleffectsplugin",
+            "packageVerificationCode": {
+                "packageVerificationCodeValue": "a13e223340b2a3359b3928a3732024d855cae3a1"
+            },
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: TheQtCompany",
+            "versionInfo": "6.11.1"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qt5compat-build-tool-CMake-11f9bc1e8a5e",
+            "comment": "\nCMake target name: qt5compatSbomBuildToolCMake\n",
+            "copyrightText": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "name": "CMake",
+            "primaryPackagePurpose": "OTHER",
+            "supplier": "Person: Anonymous",
+            "versionInfo": "3.30.5"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qt5compat-build-tool-CMake-generator-Ninja-11f9bc1e8a5e",
+            "comment": "\nCMake target name: qt5compatSbomBuildToolCMakeGenerator\n",
+            "copyrightText": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "name": "CMake generator Ninja",
+            "primaryPackagePurpose": "OTHER",
+            "supplier": "Person: Anonymous",
+            "versionInfo": "1.12.1"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qt5compat-build-tool-Compiler-GNU-11f9bc1e8a5e",
+            "comment": "\nCMake target name: qt5compatSbomBuildToolCompiler\n",
+            "copyrightText": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "name": "Compiler GNU",
+            "primaryPackagePurpose": "OTHER",
+            "summary": "The compiler as identified by CMake, running on 'Linux' (x86_64)",
+            "supplier": "Person: Anonymous",
+            "versionInfo": "11.5.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qt5compat-build-tool-Linker-GNU-11f9bc1e8a5e",
+            "comment": "\nCMake target name: qt5compatSbomBuildToolLinker\n",
+            "copyrightText": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "name": "Linker GNU",
+            "primaryPackagePurpose": "OTHER",
+            "supplier": "Person: Anonymous",
+            "versionInfo": "2.35.2"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-qt5compat-system-3rdparty-ICU-11f9bc1e8a5e",
+            "comment": "\nCMake target name: ICU::i18n\n",
+            "copyrightText": "NOASSERTION",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "name": "ICU",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Person: Anonymous",
+            "versionInfo": "73.2"
+        }
+    ],
+    "files": [
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-module-Core5Compat-11f9bc1e8a5e",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "f7c89f55cfc50322d410f549d33aaad681cc43b5"
+                }
+            ],
+            "copyrightText": "Copyright (C) The Qt Company Ltd. and other contributors.",
+            "fileName": "./lib/libQt6Core5Compat.so.6.11.1",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsprivate-11f9bc1e8a5e",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "fee0f5951125a6460f1ab87bc97e56d61e1a7d78"
+                }
+            ],
+            "copyrightText": "Copyright (C) The Qt Company Ltd. and other contributors.",
+            "fileName": "./qml/Qt5Compat/GraphicalEffects/private/libqtgraphicaleffectsprivateplugin.so",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsplugin-11f9bc1e8a5e",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "57202c08f3c786b78776455656b72ae8caa94b1d"
+                }
+            ],
+            "copyrightText": "Copyright (C) The Qt Company Ltd. and other contributors.",
+            "fileName": "./qml/Qt5Compat/GraphicalEffects/libqtgraphicaleffectsplugin.so",
+            "fileTypes": [
+                "BINARY"
+            ],
+            "licenseConcluded": "LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+            "licenseInfoInFiles": [
+                "NOASSERTION"
+            ]
+        }
+    ],
+    "relationships": [
+        {
+            "spdxElementId": "SPDXRef-DOCUMENT",
+            "relatedSpdxElement": "SPDXRef-Package-qt5compat-11f9bc1e8a5e",
+            "relationshipType": "DESCRIBES"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qt5compat-build-tool-CMake-11f9bc1e8a5e",
+            "comment": "SPDXRef-Package-qt5compat-11f9bc1e8a5e is built using CMake version 3.30.5",
+            "relatedSpdxElement": "SPDXRef-Package-qt5compat-11f9bc1e8a5e",
+            "relationshipType": "BUILD_DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qt5compat-build-tool-CMake-generator-Ninja-11f9bc1e8a5e",
+            "comment": "SPDXRef-Package-qt5compat-11f9bc1e8a5e is built using generator CMAKE_GENERATOR: 'Ninja' and CMAKE_MAKE_PROGRAM: 'ninja' version '1.12.1'",
+            "relatedSpdxElement": "SPDXRef-Package-qt5compat-11f9bc1e8a5e",
+            "relationshipType": "BUILD_DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qt5compat-build-tool-Compiler-GNU-11f9bc1e8a5e",
+            "comment": "SPDXRef-Package-qt5compat-11f9bc1e8a5e is built by compiler: 'GNU' version: '11.5.0' frontend variant: 'GNU'",
+            "relatedSpdxElement": "SPDXRef-Package-qt5compat-11f9bc1e8a5e",
+            "relationshipType": "BUILD_DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qt5compat-build-tool-Linker-GNU-11f9bc1e8a5e",
+            "comment": "SPDXRef-Package-qt5compat-11f9bc1e8a5e is built by linker 'GNU' version '2.35.2' frontend variant: 'GNU'",
+            "relatedSpdxElement": "SPDXRef-Package-qt5compat-11f9bc1e8a5e",
+            "relationshipType": "BUILD_DEPENDENCY_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qt5compat-11f9bc1e8a5e",
+            "relatedSpdxElement": "SPDXRef-Package-qt5compat-qt-3rdparty-sources-Core5Compat-Attribution-qbig5codecs-11f9bc1e8a5e",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qt5compat-11f9bc1e8a5e",
+            "relatedSpdxElement": "SPDXRef-Package-qt5compat-qt-3rdparty-sources-Core5Compat-Attribution-qeucjpcodec-11f9bc1e8a5e",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qt5compat-11f9bc1e8a5e",
+            "relatedSpdxElement": "SPDXRef-Package-qt5compat-qt-3rdparty-sources-Core5Compat-Attribution-qeuckrcodec-11f9bc1e8a5e",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qt5compat-11f9bc1e8a5e",
+            "relatedSpdxElement": "SPDXRef-Package-qt5compat-qt-3rdparty-sources-Core5Compat-Attribution-qjiscodec-11f9bc1e8a5e",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qt5compat-11f9bc1e8a5e",
+            "relatedSpdxElement": "SPDXRef-Package-qt5compat-qt-3rdparty-sources-Core5Compat-Attribution-qsjiscodec-11f9bc1e8a5e",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qt5compat-11f9bc1e8a5e",
+            "relatedSpdxElement": "SPDXRef-Package-qt5compat-qt-3rdparty-sources-Core5Compat-Attribution-qtsciicodec-11f9bc1e8a5e",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qt5compat-11f9bc1e8a5e",
+            "relatedSpdxElement": "SPDXRef-Package-qt5compat-qt-3rdparty-sources-Core5Compat-Attribution-qbkcodec-11f9bc1e8a5e",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qt5compat-11f9bc1e8a5e",
+            "relatedSpdxElement": "SPDXRef-Package-qt5compat-qt-module-Core5Compat-11f9bc1e8a5e",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qt5compat-qt-module-Core5Compat-11f9bc1e8a5e",
+            "relatedSpdxElement": "DocumentRef-qtbase-ca2839a29ee1:SPDXRef-Package-qtbase-qt-module-Core-ca2839a29ee1",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qt5compat-qt-module-Core5Compat-11f9bc1e8a5e",
+            "relatedSpdxElement": "DocumentRef-qtbase-ca2839a29ee1:SPDXRef-Package-qtbase-qt-module-PlatformModuleInternal-ca2839a29ee1",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qt5compat-qt-module-Core5Compat-11f9bc1e8a5e",
+            "relatedSpdxElement": "SPDXRef-Package-qt5compat-system-3rdparty-ICU-11f9bc1e8a5e",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qt5compat-qt-module-Core5Compat-11f9bc1e8a5e",
+            "relatedSpdxElement": "SPDXRef-Package-qt5compat-qt-3rdparty-sources-Core5Compat-Attribution-qbig5codecs-11f9bc1e8a5e",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qt5compat-qt-module-Core5Compat-11f9bc1e8a5e",
+            "relatedSpdxElement": "SPDXRef-Package-qt5compat-qt-3rdparty-sources-Core5Compat-Attribution-qeucjpcodec-11f9bc1e8a5e",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qt5compat-qt-module-Core5Compat-11f9bc1e8a5e",
+            "relatedSpdxElement": "SPDXRef-Package-qt5compat-qt-3rdparty-sources-Core5Compat-Attribution-qeuckrcodec-11f9bc1e8a5e",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qt5compat-qt-module-Core5Compat-11f9bc1e8a5e",
+            "relatedSpdxElement": "SPDXRef-Package-qt5compat-qt-3rdparty-sources-Core5Compat-Attribution-qjiscodec-11f9bc1e8a5e",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qt5compat-qt-module-Core5Compat-11f9bc1e8a5e",
+            "relatedSpdxElement": "SPDXRef-Package-qt5compat-qt-3rdparty-sources-Core5Compat-Attribution-qsjiscodec-11f9bc1e8a5e",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qt5compat-qt-module-Core5Compat-11f9bc1e8a5e",
+            "relatedSpdxElement": "SPDXRef-Package-qt5compat-qt-3rdparty-sources-Core5Compat-Attribution-qtsciicodec-11f9bc1e8a5e",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qt5compat-qt-module-Core5Compat-11f9bc1e8a5e",
+            "relatedSpdxElement": "SPDXRef-Package-qt5compat-qt-3rdparty-sources-Core5Compat-Attribution-qbkcodec-11f9bc1e8a5e",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qt5compat-qt-module-Core5Compat-11f9bc1e8a5e",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-Core5Compat-11f9bc1e8a5e",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qt5compat-qt-module-Core5Compat-11f9bc1e8a5e",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-module-Core5Compat-11f9bc1e8a5e",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Core5Compat-11f9bc1e8a5e",
+            "comment": "/src_dir/qt5compat/src/core5/codecs/qcodecmacros_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Core5Compat-11f9bc1e8a5e",
+            "comment": "/src_dir/qt5compat/src/core5/codecs/qtextcodec_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Core5Compat-11f9bc1e8a5e",
+            "comment": "/src_dir/qt5compat/src/core5/codecs/qutfcodec.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Core5Compat-11f9bc1e8a5e",
+            "comment": "/src_dir/qt5compat/src/core5/codecs/qutfcodec_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Core5Compat-11f9bc1e8a5e",
+            "comment": "/src_dir/qt5compat/src/core5/qcore5global.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Core5Compat-11f9bc1e8a5e",
+            "comment": "/src_dir/qt5compat/src/core5/sax/qxml.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Core5Compat-11f9bc1e8a5e",
+            "comment": "/src_dir/qt5compat/src/core5/sax/qxml.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Core5Compat-11f9bc1e8a5e",
+            "comment": "/src_dir/qt5compat/src/core5/sax/qxml_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Core5Compat-11f9bc1e8a5e",
+            "comment": "/src_dir/qt5compat/src/core5/serialization/qbinaryjson.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Core5Compat-11f9bc1e8a5e",
+            "comment": "/src_dir/qt5compat/src/core5/serialization/qbinaryjson.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Core5Compat-11f9bc1e8a5e",
+            "comment": "/src_dir/qt5compat/src/core5/serialization/qbinaryjson_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Core5Compat-11f9bc1e8a5e",
+            "comment": "/src_dir/qt5compat/src/core5/serialization/qbinaryjsonarray.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Core5Compat-11f9bc1e8a5e",
+            "comment": "/src_dir/qt5compat/src/core5/serialization/qbinaryjsonarray_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Core5Compat-11f9bc1e8a5e",
+            "comment": "/src_dir/qt5compat/src/core5/serialization/qbinaryjsonobject.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Core5Compat-11f9bc1e8a5e",
+            "comment": "/src_dir/qt5compat/src/core5/serialization/qbinaryjsonobject_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Core5Compat-11f9bc1e8a5e",
+            "comment": "/src_dir/qt5compat/src/core5/serialization/qbinaryjsonvalue.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Core5Compat-11f9bc1e8a5e",
+            "comment": "/src_dir/qt5compat/src/core5/serialization/qbinaryjsonvalue_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Core5Compat-11f9bc1e8a5e",
+            "comment": "/src_dir/qt5compat/src/core5/text/qregexp.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Core5Compat-11f9bc1e8a5e",
+            "comment": "/src_dir/qt5compat/src/core5/text/qregexp.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Core5Compat-11f9bc1e8a5e",
+            "comment": "/src_dir/qt5compat/src/core5/text/qstringref.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Core5Compat-11f9bc1e8a5e",
+            "comment": "/src_dir/qt5compat/src/core5/text/qstringref.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Core5Compat-11f9bc1e8a5e",
+            "comment": "/src_dir/qt5compat/src/core5/tools/qlinkedlist.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Core5Compat-11f9bc1e8a5e",
+            "comment": "/src_dir/qt5compat/src/core5/tools/qlinkedlist.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Core5Compat-11f9bc1e8a5e",
+            "comment": "/build_dir/qt5compat/src/core5/qtcore5compat-config.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Core5Compat-11f9bc1e8a5e",
+            "comment": "/build_dir/qt5compat/src/core5/qtcore5compat-config_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Core5Compat-11f9bc1e8a5e",
+            "comment": "/src_dir/qt5compat/src/core5/codecs/qlatincodec.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Core5Compat-11f9bc1e8a5e",
+            "comment": "/src_dir/qt5compat/src/core5/codecs/qlatincodec_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Core5Compat-11f9bc1e8a5e",
+            "comment": "/src_dir/qt5compat/src/core5/codecs/qsimplecodec.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Core5Compat-11f9bc1e8a5e",
+            "comment": "/src_dir/qt5compat/src/core5/codecs/qsimplecodec_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Core5Compat-11f9bc1e8a5e",
+            "comment": "/src_dir/qt5compat/src/core5/codecs/qtextcodec.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Core5Compat-11f9bc1e8a5e",
+            "comment": "/src_dir/qt5compat/src/core5/codecs/qtextcodec.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Core5Compat-11f9bc1e8a5e",
+            "comment": "/src_dir/qt5compat/src/core5/codecs/qisciicodec.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Core5Compat-11f9bc1e8a5e",
+            "comment": "/src_dir/qt5compat/src/core5/codecs/qisciicodec_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Core5Compat-11f9bc1e8a5e",
+            "comment": "/src_dir/qt5compat/src/core5/codecs/qtsciicodec.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Core5Compat-11f9bc1e8a5e",
+            "comment": "/src_dir/qt5compat/src/core5/codecs/qtsciicodec_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Core5Compat-11f9bc1e8a5e",
+            "comment": "/src_dir/qt5compat/src/core5/codecs/qicucodec.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-module-Core5Compat-11f9bc1e8a5e",
+            "comment": "/src_dir/qt5compat/src/core5/codecs/qicucodec_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qt5compat-11f9bc1e8a5e",
+            "relatedSpdxElement": "SPDXRef-Package-qt5compat-qt-plugin-qtgraphicaleffectsprivate-11f9bc1e8a5e",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qt5compat-qt-plugin-qtgraphicaleffectsprivate-11f9bc1e8a5e",
+            "relatedSpdxElement": "DocumentRef-qtbase-ca2839a29ee1:SPDXRef-Package-qtbase-qt-module-Core-ca2839a29ee1",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qt5compat-qt-plugin-qtgraphicaleffectsprivate-11f9bc1e8a5e",
+            "relatedSpdxElement": "DocumentRef-qtbase-ca2839a29ee1:SPDXRef-Package-qtbase-qt-module-Gui-ca2839a29ee1",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qt5compat-qt-plugin-qtgraphicaleffectsprivate-11f9bc1e8a5e",
+            "relatedSpdxElement": "DocumentRef-qtdeclarative-a30c4980599d:SPDXRef-Package-qtdeclarative-qt-module-Qml-a30c4980599d",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qt5compat-qt-plugin-qtgraphicaleffectsprivate-11f9bc1e8a5e",
+            "relatedSpdxElement": "DocumentRef-qtdeclarative-a30c4980599d:SPDXRef-Package-qtdeclarative-qt-module-Quick-a30c4980599d",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qt5compat-qt-plugin-qtgraphicaleffectsprivate-11f9bc1e8a5e",
+            "relatedSpdxElement": "DocumentRef-qtshadertools-d68980f175e0:SPDXRef-Package-qtshadertools-qt-module-ShaderTools-d68980f175e0",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qt5compat-qt-plugin-qtgraphicaleffectsprivate-11f9bc1e8a5e",
+            "relatedSpdxElement": "DocumentRef-qtbase-ca2839a29ee1:SPDXRef-Package-qtbase-qt-module-PlatformPluginInternal-ca2839a29ee1",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qt5compat-qt-plugin-qtgraphicaleffectsprivate-11f9bc1e8a5e",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsprivate-11f9bc1e8a5e",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qt5compat-qt-plugin-qtgraphicaleffectsprivate-11f9bc1e8a5e",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsprivate-11f9bc1e8a5e",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsprivate-11f9bc1e8a5e",
+            "comment": "/src_dir/qt5compat/src/imports/graphicaleffects5/private/qgfxsourceproxy.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsprivate-11f9bc1e8a5e",
+            "comment": "/src_dir/qt5compat/src/imports/graphicaleffects5/private/qgfxsourceproxy_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsprivate-11f9bc1e8a5e",
+            "comment": "/src_dir/qt5compat/src/imports/graphicaleffects5/private/qgfxshaderbuilder.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsprivate-11f9bc1e8a5e",
+            "comment": "/src_dir/qt5compat/src/imports/graphicaleffects5/private/qgfxshaderbuilder_p.h",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsprivate-11f9bc1e8a5e",
+            "comment": "/build_dir/qt5compat/src/imports/graphicaleffects5/private/qtgraphicaleffectsprivate_qmltyperegistrations.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsprivate-11f9bc1e8a5e",
+            "comment": "/build_dir/qt5compat/src/imports/graphicaleffects5/private/.qt/rcc/qrc_qmake_Qt5Compat_GraphicalEffects_private.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsprivate-11f9bc1e8a5e",
+            "comment": "/build_dir/qt5compat/src/imports/graphicaleffects5/private/qtgraphicaleffectsprivate_QtGraphicalEffectsPrivatePlugin.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsprivate-11f9bc1e8a5e",
+            "comment": "/src_dir/qt5compat/src/imports/graphicaleffects5/private/DropShadowBase.qml",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsprivate-11f9bc1e8a5e",
+            "comment": "/build_dir/qt5compat/src/imports/graphicaleffects5/private/.rcc/qmlcache/qtgraphicaleffectsprivate_qmlcache_loader.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsprivate-11f9bc1e8a5e",
+            "comment": "/build_dir/qt5compat/src/imports/graphicaleffects5/private/.rcc/qmlcache/qtgraphicaleffectsprivate_DropShadowBase_qml.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsprivate-11f9bc1e8a5e",
+            "comment": "/src_dir/qt5compat/src/imports/graphicaleffects5/private/FastGlow.qml",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsprivate-11f9bc1e8a5e",
+            "comment": "/build_dir/qt5compat/src/imports/graphicaleffects5/private/.rcc/qmlcache/qtgraphicaleffectsprivate_FastGlow_qml.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsprivate-11f9bc1e8a5e",
+            "comment": "/src_dir/qt5compat/src/imports/graphicaleffects5/private/FastInnerShadow.qml",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsprivate-11f9bc1e8a5e",
+            "comment": "/build_dir/qt5compat/src/imports/graphicaleffects5/private/.rcc/qmlcache/qtgraphicaleffectsprivate_FastInnerShadow_qml.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsprivate-11f9bc1e8a5e",
+            "comment": "/src_dir/qt5compat/src/imports/graphicaleffects5/private/GaussianDirectionalBlur.qml",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsprivate-11f9bc1e8a5e",
+            "comment": "/build_dir/qt5compat/src/imports/graphicaleffects5/private/.rcc/qmlcache/qtgraphicaleffectsprivate_GaussianDirectionalBlur_qml.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsprivate-11f9bc1e8a5e",
+            "comment": "/src_dir/qt5compat/src/imports/graphicaleffects5/private/GaussianGlow.qml",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsprivate-11f9bc1e8a5e",
+            "comment": "/build_dir/qt5compat/src/imports/graphicaleffects5/private/.rcc/qmlcache/qtgraphicaleffectsprivate_GaussianGlow_qml.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsprivate-11f9bc1e8a5e",
+            "comment": "/src_dir/qt5compat/src/imports/graphicaleffects5/private/GaussianInnerShadow.qml",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsprivate-11f9bc1e8a5e",
+            "comment": "/build_dir/qt5compat/src/imports/graphicaleffects5/private/.rcc/qmlcache/qtgraphicaleffectsprivate_GaussianInnerShadow_qml.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsprivate-11f9bc1e8a5e",
+            "comment": "/src_dir/qt5compat/src/imports/graphicaleffects5/private/GaussianMaskedBlur.qml",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsprivate-11f9bc1e8a5e",
+            "comment": "/build_dir/qt5compat/src/imports/graphicaleffects5/private/.rcc/qmlcache/qtgraphicaleffectsprivate_GaussianMaskedBlur_qml.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsprivate-11f9bc1e8a5e",
+            "comment": "/build_dir/qt5compat/src/imports/graphicaleffects5/private/.qt/rcc/qrc_qtgraphicaleffectsprivate_raw_qml_0.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qt5compat-11f9bc1e8a5e",
+            "relatedSpdxElement": "SPDXRef-Package-qt5compat-qt-plugin-qtgraphicaleffectsplugin-11f9bc1e8a5e",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qt5compat-qt-plugin-qtgraphicaleffectsplugin-11f9bc1e8a5e",
+            "relatedSpdxElement": "DocumentRef-qtdeclarative-a30c4980599d:SPDXRef-Package-qtdeclarative-qt-module-Qml-a30c4980599d",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qt5compat-qt-plugin-qtgraphicaleffectsplugin-11f9bc1e8a5e",
+            "relatedSpdxElement": "DocumentRef-qtdeclarative-a30c4980599d:SPDXRef-Package-qtdeclarative-qt-module-Quick-a30c4980599d",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qt5compat-qt-plugin-qtgraphicaleffectsplugin-11f9bc1e8a5e",
+            "relatedSpdxElement": "DocumentRef-qtbase-ca2839a29ee1:SPDXRef-Package-qtbase-qt-module-PlatformPluginInternal-ca2839a29ee1",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qt5compat-qt-plugin-qtgraphicaleffectsplugin-11f9bc1e8a5e",
+            "relatedSpdxElement": "DocumentRef-qtbase-ca2839a29ee1:SPDXRef-Package-qtbase-qt-module-Core-ca2839a29ee1",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qt5compat-qt-plugin-qtgraphicaleffectsplugin-11f9bc1e8a5e",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsplugin-11f9bc1e8a5e",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qt5compat-qt-plugin-qtgraphicaleffectsplugin-11f9bc1e8a5e",
+            "relatedSpdxElement": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsplugin-11f9bc1e8a5e",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsplugin-11f9bc1e8a5e",
+            "comment": "/build_dir/qt5compat/src/imports/graphicaleffects5/qtgraphicaleffectsplugin_qmltyperegistrations.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsplugin-11f9bc1e8a5e",
+            "comment": "/build_dir/qt5compat/src/imports/graphicaleffects5/.qt/rcc/qrc_qmake_Qt5Compat_GraphicalEffects.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsplugin-11f9bc1e8a5e",
+            "comment": "/build_dir/qt5compat/src/imports/graphicaleffects5/qtgraphicaleffectsplugin_QtGraphicalEffectsPlugin.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsplugin-11f9bc1e8a5e",
+            "comment": "/src_dir/qt5compat/src/imports/graphicaleffects5/Blend.qml",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsplugin-11f9bc1e8a5e",
+            "comment": "/build_dir/qt5compat/src/imports/graphicaleffects5/.rcc/qmlcache/qtgraphicaleffectsplugin_qmlcache_loader.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsplugin-11f9bc1e8a5e",
+            "comment": "/build_dir/qt5compat/src/imports/graphicaleffects5/.rcc/qmlcache/qtgraphicaleffectsplugin_Blend_qml.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsplugin-11f9bc1e8a5e",
+            "comment": "/src_dir/qt5compat/src/imports/graphicaleffects5/BrightnessContrast.qml",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsplugin-11f9bc1e8a5e",
+            "comment": "/build_dir/qt5compat/src/imports/graphicaleffects5/.rcc/qmlcache/qtgraphicaleffectsplugin_BrightnessContrast_qml.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsplugin-11f9bc1e8a5e",
+            "comment": "/src_dir/qt5compat/src/imports/graphicaleffects5/ColorOverlay.qml",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsplugin-11f9bc1e8a5e",
+            "comment": "/build_dir/qt5compat/src/imports/graphicaleffects5/.rcc/qmlcache/qtgraphicaleffectsplugin_ColorOverlay_qml.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsplugin-11f9bc1e8a5e",
+            "comment": "/src_dir/qt5compat/src/imports/graphicaleffects5/Colorize.qml",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsplugin-11f9bc1e8a5e",
+            "comment": "/build_dir/qt5compat/src/imports/graphicaleffects5/.rcc/qmlcache/qtgraphicaleffectsplugin_Colorize_qml.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsplugin-11f9bc1e8a5e",
+            "comment": "/src_dir/qt5compat/src/imports/graphicaleffects5/ConicalGradient.qml",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsplugin-11f9bc1e8a5e",
+            "comment": "/build_dir/qt5compat/src/imports/graphicaleffects5/.rcc/qmlcache/qtgraphicaleffectsplugin_ConicalGradient_qml.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsplugin-11f9bc1e8a5e",
+            "comment": "/src_dir/qt5compat/src/imports/graphicaleffects5/Desaturate.qml",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsplugin-11f9bc1e8a5e",
+            "comment": "/build_dir/qt5compat/src/imports/graphicaleffects5/.rcc/qmlcache/qtgraphicaleffectsplugin_Desaturate_qml.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsplugin-11f9bc1e8a5e",
+            "comment": "/src_dir/qt5compat/src/imports/graphicaleffects5/DirectionalBlur.qml",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsplugin-11f9bc1e8a5e",
+            "comment": "/build_dir/qt5compat/src/imports/graphicaleffects5/.rcc/qmlcache/qtgraphicaleffectsplugin_DirectionalBlur_qml.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsplugin-11f9bc1e8a5e",
+            "comment": "/src_dir/qt5compat/src/imports/graphicaleffects5/Displace.qml",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsplugin-11f9bc1e8a5e",
+            "comment": "/build_dir/qt5compat/src/imports/graphicaleffects5/.rcc/qmlcache/qtgraphicaleffectsplugin_Displace_qml.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsplugin-11f9bc1e8a5e",
+            "comment": "/src_dir/qt5compat/src/imports/graphicaleffects5/DropShadow.qml",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsplugin-11f9bc1e8a5e",
+            "comment": "/build_dir/qt5compat/src/imports/graphicaleffects5/.rcc/qmlcache/qtgraphicaleffectsplugin_DropShadow_qml.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsplugin-11f9bc1e8a5e",
+            "comment": "/src_dir/qt5compat/src/imports/graphicaleffects5/FastBlur.qml",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsplugin-11f9bc1e8a5e",
+            "comment": "/build_dir/qt5compat/src/imports/graphicaleffects5/.rcc/qmlcache/qtgraphicaleffectsplugin_FastBlur_qml.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsplugin-11f9bc1e8a5e",
+            "comment": "/src_dir/qt5compat/src/imports/graphicaleffects5/GammaAdjust.qml",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsplugin-11f9bc1e8a5e",
+            "comment": "/build_dir/qt5compat/src/imports/graphicaleffects5/.rcc/qmlcache/qtgraphicaleffectsplugin_GammaAdjust_qml.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsplugin-11f9bc1e8a5e",
+            "comment": "/src_dir/qt5compat/src/imports/graphicaleffects5/GaussianBlur.qml",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsplugin-11f9bc1e8a5e",
+            "comment": "/build_dir/qt5compat/src/imports/graphicaleffects5/.rcc/qmlcache/qtgraphicaleffectsplugin_GaussianBlur_qml.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsplugin-11f9bc1e8a5e",
+            "comment": "/src_dir/qt5compat/src/imports/graphicaleffects5/Glow.qml",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsplugin-11f9bc1e8a5e",
+            "comment": "/build_dir/qt5compat/src/imports/graphicaleffects5/.rcc/qmlcache/qtgraphicaleffectsplugin_Glow_qml.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsplugin-11f9bc1e8a5e",
+            "comment": "/src_dir/qt5compat/src/imports/graphicaleffects5/HueSaturation.qml",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsplugin-11f9bc1e8a5e",
+            "comment": "/build_dir/qt5compat/src/imports/graphicaleffects5/.rcc/qmlcache/qtgraphicaleffectsplugin_HueSaturation_qml.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsplugin-11f9bc1e8a5e",
+            "comment": "/src_dir/qt5compat/src/imports/graphicaleffects5/InnerShadow.qml",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsplugin-11f9bc1e8a5e",
+            "comment": "/build_dir/qt5compat/src/imports/graphicaleffects5/.rcc/qmlcache/qtgraphicaleffectsplugin_InnerShadow_qml.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsplugin-11f9bc1e8a5e",
+            "comment": "/src_dir/qt5compat/src/imports/graphicaleffects5/LevelAdjust.qml",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsplugin-11f9bc1e8a5e",
+            "comment": "/build_dir/qt5compat/src/imports/graphicaleffects5/.rcc/qmlcache/qtgraphicaleffectsplugin_LevelAdjust_qml.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsplugin-11f9bc1e8a5e",
+            "comment": "/src_dir/qt5compat/src/imports/graphicaleffects5/LinearGradient.qml",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsplugin-11f9bc1e8a5e",
+            "comment": "/build_dir/qt5compat/src/imports/graphicaleffects5/.rcc/qmlcache/qtgraphicaleffectsplugin_LinearGradient_qml.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsplugin-11f9bc1e8a5e",
+            "comment": "/src_dir/qt5compat/src/imports/graphicaleffects5/MaskedBlur.qml",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsplugin-11f9bc1e8a5e",
+            "comment": "/build_dir/qt5compat/src/imports/graphicaleffects5/.rcc/qmlcache/qtgraphicaleffectsplugin_MaskedBlur_qml.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsplugin-11f9bc1e8a5e",
+            "comment": "/src_dir/qt5compat/src/imports/graphicaleffects5/OpacityMask.qml",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsplugin-11f9bc1e8a5e",
+            "comment": "/build_dir/qt5compat/src/imports/graphicaleffects5/.rcc/qmlcache/qtgraphicaleffectsplugin_OpacityMask_qml.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsplugin-11f9bc1e8a5e",
+            "comment": "/src_dir/qt5compat/src/imports/graphicaleffects5/RadialBlur.qml",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsplugin-11f9bc1e8a5e",
+            "comment": "/build_dir/qt5compat/src/imports/graphicaleffects5/.rcc/qmlcache/qtgraphicaleffectsplugin_RadialBlur_qml.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsplugin-11f9bc1e8a5e",
+            "comment": "/src_dir/qt5compat/src/imports/graphicaleffects5/RadialGradient.qml",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsplugin-11f9bc1e8a5e",
+            "comment": "/build_dir/qt5compat/src/imports/graphicaleffects5/.rcc/qmlcache/qtgraphicaleffectsplugin_RadialGradient_qml.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsplugin-11f9bc1e8a5e",
+            "comment": "/src_dir/qt5compat/src/imports/graphicaleffects5/RectangularGlow.qml",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsplugin-11f9bc1e8a5e",
+            "comment": "/build_dir/qt5compat/src/imports/graphicaleffects5/.rcc/qmlcache/qtgraphicaleffectsplugin_RectangularGlow_qml.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsplugin-11f9bc1e8a5e",
+            "comment": "/src_dir/qt5compat/src/imports/graphicaleffects5/RecursiveBlur.qml",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsplugin-11f9bc1e8a5e",
+            "comment": "/build_dir/qt5compat/src/imports/graphicaleffects5/.rcc/qmlcache/qtgraphicaleffectsplugin_RecursiveBlur_qml.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsplugin-11f9bc1e8a5e",
+            "comment": "/src_dir/qt5compat/src/imports/graphicaleffects5/ThresholdMask.qml",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsplugin-11f9bc1e8a5e",
+            "comment": "/build_dir/qt5compat/src/imports/graphicaleffects5/.rcc/qmlcache/qtgraphicaleffectsplugin_ThresholdMask_qml.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsplugin-11f9bc1e8a5e",
+            "comment": "/src_dir/qt5compat/src/imports/graphicaleffects5/ZoomBlur.qml",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsplugin-11f9bc1e8a5e",
+            "comment": "/build_dir/qt5compat/src/imports/graphicaleffects5/.rcc/qmlcache/qtgraphicaleffectsplugin_ZoomBlur_qml.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsplugin-11f9bc1e8a5e",
+            "comment": "/build_dir/qt5compat/src/imports/graphicaleffects5/.qt/rcc/qrc_qtgraphicaleffectsplugin_raw_qml_0.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-PackagedFile-qt-plugin-qtgraphicaleffectsplugin-11f9bc1e8a5e",
+            "comment": "/build_dir/qt5compat/src/imports/graphicaleffects5/.qt/rcc/qrc_qtgraphicaleffectsshaders.cpp",
+            "relatedSpdxElement": "NOASSERTION",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qt5compat-11f9bc1e8a5e",
+            "relatedSpdxElement": "SPDXRef-Package-qt5compat-build-tool-CMake-11f9bc1e8a5e",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qt5compat-11f9bc1e8a5e",
+            "relatedSpdxElement": "SPDXRef-Package-qt5compat-build-tool-CMake-generator-Ninja-11f9bc1e8a5e",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qt5compat-11f9bc1e8a5e",
+            "relatedSpdxElement": "SPDXRef-Package-qt5compat-build-tool-Compiler-GNU-11f9bc1e8a5e",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qt5compat-11f9bc1e8a5e",
+            "relatedSpdxElement": "SPDXRef-Package-qt5compat-build-tool-Linker-GNU-11f9bc1e8a5e",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-qt5compat-11f9bc1e8a5e",
+            "relatedSpdxElement": "SPDXRef-Package-qt5compat-system-3rdparty-ICU-11f9bc1e8a5e",
+            "relationshipType": "CONTAINS"
+        }
+    ]
+}
