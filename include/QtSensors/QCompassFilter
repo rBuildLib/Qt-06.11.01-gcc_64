@@ -1,0 +1,1 @@
+#include <QtSensors/qcompass.h> // IWYU pragma: export

@@ -1,0 +1,1 @@
+#include <QtBluetooth/qlowenergyadvertisingparameters.h> // IWYU pragma: export

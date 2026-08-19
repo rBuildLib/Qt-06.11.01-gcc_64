@@ -1,0 +1,273 @@
+{
+  "components": [
+    {
+      "bom-ref": "SPDXRef-Package-qtnetworkauth-build-tool-CMake-b638119758aa",
+      "name": "CMake",
+      "properties": [
+        {
+          "name": "qt:sbom:entity_type",
+          "value": "BUILD_TOOL"
+        }
+      ],
+      "type": "library",
+      "version": "3.30.5"
+    },
+    {
+      "bom-ref": "SPDXRef-Package-qtnetworkauth-build-tool-CMake-generator-Ninja-b638119758aa",
+      "name": "CMake generator Ninja",
+      "properties": [
+        {
+          "name": "qt:sbom:entity_type",
+          "value": "BUILD_TOOL"
+        }
+      ],
+      "type": "library",
+      "version": "1.12.1"
+    },
+    {
+      "bom-ref": "SPDXRef-Package-qtnetworkauth-build-tool-Compiler-GNU-b638119758aa",
+      "name": "Compiler GNU",
+      "properties": [
+        {
+          "name": "qt:sbom:entity_type",
+          "value": "BUILD_TOOL"
+        }
+      ],
+      "type": "library",
+      "version": "11.5.0"
+    },
+    {
+      "bom-ref": "SPDXRef-Package-qtbase-qt-module-Core-ca2839a29ee1",
+      "externalReferences": [
+        {
+          "type": "bom",
+          "url": "urn:cdx:915d2cd9-a0de-5c4e-8fb8-f24e0ec85ad4/1#SPDXRef-Package-qtbase-qt-module-Core-ca2839a29ee1"
+        }
+      ],
+      "name": "Core",
+      "type": "library",
+      "version": "6.11.1"
+    },
+    {
+      "bom-ref": "SPDXRef-Package-qtbase-qt-module-Gui-ca2839a29ee1",
+      "externalReferences": [
+        {
+          "type": "bom",
+          "url": "urn:cdx:915d2cd9-a0de-5c4e-8fb8-f24e0ec85ad4/1#SPDXRef-Package-qtbase-qt-module-Gui-ca2839a29ee1"
+        }
+      ],
+      "name": "Gui",
+      "type": "library",
+      "version": "6.11.1"
+    },
+    {
+      "bom-ref": "SPDXRef-Package-qtnetworkauth-build-tool-Linker-GNU-b638119758aa",
+      "name": "Linker GNU",
+      "properties": [
+        {
+          "name": "qt:sbom:entity_type",
+          "value": "BUILD_TOOL"
+        }
+      ],
+      "type": "library",
+      "version": "2.35.2"
+    },
+    {
+      "bom-ref": "SPDXRef-Package-qtbase-qt-module-Network-ca2839a29ee1",
+      "externalReferences": [
+        {
+          "type": "bom",
+          "url": "urn:cdx:915d2cd9-a0de-5c4e-8fb8-f24e0ec85ad4/1#SPDXRef-Package-qtbase-qt-module-Network-ca2839a29ee1"
+        }
+      ],
+      "name": "Network",
+      "type": "library",
+      "version": "6.11.1"
+    },
+    {
+      "bom-ref": "SPDXRef-Package-qtnetworkauth-qt-module-NetworkAuth-b638119758aa",
+      "copyright": "Copyright (C) The Qt Company Ltd. and other contributors.",
+      "cpe": "cpe:2.3:a:qt:qt:6.11.1:*:*:*:*:*:*:*",
+      "licenses": [
+        {
+          "license": {
+            "acknowledgement": "concluded",
+            "id": "GPL-3.0-only"
+          }
+        },
+        {
+          "license": {
+            "acknowledgement": "concluded",
+            "name": "LicenseRef-Qt-Commercial",
+            "text": {
+              "content": "Licensees holding valid commercial Qt licenses may use this software in\naccordance with the the terms contained in a written agreement between\nyou and The Qt Company. Alternatively, the terms and conditions that were\naccepted by the licensee when buying and/or downloading the\nsoftware do apply.\n\nFor the latest licensing terms and conditions, see https://www.qt.io/terms-conditions.\nFor further information use the contact form at https://www.qt.io/contact-us.\n\n",
+              "contentType": "text/plain"
+            }
+          }
+        }
+      ],
+      "name": "NetworkAuth",
+      "properties": [
+        {
+          "name": "qt:sbom:entity_type",
+          "value": "QT_MODULE"
+        },
+        {
+          "name": "qt:sbom:is_qt_entity_type",
+          "value": "true"
+        },
+        {
+          "name": "spdx:external-reference:package-manager:purl",
+          "value": "pkg:github/qt/qtnetworkauth?library_name=NetworkAuth#src/oauth"
+        },
+        {
+          "name": "spdx:external-reference:security:cpe23",
+          "value": "cpe:2.3:a:qt:qtnetworkauth:6.11.1:*:*:*:*:*:*:*"
+        }
+      ],
+      "purl": "pkg:generic/TheQtCompany/qtnetworkauth-NetworkAuth?library_name=NetworkAuth&vcs_url=https://code.qt.io/qt/qtnetworkauth.git#src/oauth",
+      "supplier": {
+        "name": "TheQtCompany",
+        "url": [
+          "https://qt.io"
+        ]
+      },
+      "type": "library",
+      "version": "6.11.1"
+    },
+    {
+      "bom-ref": "SPDXRef-Package-qtbase-qt-module-PlatformModuleInternal-ca2839a29ee1",
+      "externalReferences": [
+        {
+          "type": "bom",
+          "url": "urn:cdx:915d2cd9-a0de-5c4e-8fb8-f24e0ec85ad4/1#SPDXRef-Package-qtbase-qt-module-PlatformModuleInternal-ca2839a29ee1"
+        }
+      ],
+      "name": "PlatformModuleInternal",
+      "type": "library",
+      "version": "6.11.1"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "SPDXRef-Package-qtbase-qt-module-Core-ca2839a29ee1"
+    },
+    {
+      "ref": "SPDXRef-Package-qtbase-qt-module-Gui-ca2839a29ee1"
+    },
+    {
+      "ref": "SPDXRef-Package-qtbase-qt-module-Network-ca2839a29ee1"
+    },
+    {
+      "ref": "SPDXRef-Package-qtbase-qt-module-PlatformModuleInternal-ca2839a29ee1"
+    },
+    {
+      "dependsOn": [
+        "SPDXRef-Package-qtnetworkauth-build-tool-CMake-b638119758aa",
+        "SPDXRef-Package-qtnetworkauth-build-tool-CMake-generator-Ninja-b638119758aa",
+        "SPDXRef-Package-qtnetworkauth-build-tool-Compiler-GNU-b638119758aa",
+        "SPDXRef-Package-qtnetworkauth-build-tool-Linker-GNU-b638119758aa",
+        "SPDXRef-Package-qtnetworkauth-qt-module-NetworkAuth-b638119758aa"
+      ],
+      "ref": "SPDXRef-Package-qtnetworkauth-b638119758aa"
+    },
+    {
+      "dependsOn": [
+        "SPDXRef-Package-qtnetworkauth-b638119758aa"
+      ],
+      "ref": "SPDXRef-Package-qtnetworkauth-build-tool-CMake-b638119758aa"
+    },
+    {
+      "dependsOn": [
+        "SPDXRef-Package-qtnetworkauth-b638119758aa"
+      ],
+      "ref": "SPDXRef-Package-qtnetworkauth-build-tool-CMake-generator-Ninja-b638119758aa"
+    },
+    {
+      "dependsOn": [
+        "SPDXRef-Package-qtnetworkauth-b638119758aa"
+      ],
+      "ref": "SPDXRef-Package-qtnetworkauth-build-tool-Compiler-GNU-b638119758aa"
+    },
+    {
+      "dependsOn": [
+        "SPDXRef-Package-qtnetworkauth-b638119758aa"
+      ],
+      "ref": "SPDXRef-Package-qtnetworkauth-build-tool-Linker-GNU-b638119758aa"
+    },
+    {
+      "dependsOn": [
+        "SPDXRef-Package-qtbase-qt-module-Core-ca2839a29ee1",
+        "SPDXRef-Package-qtbase-qt-module-Gui-ca2839a29ee1",
+        "SPDXRef-Package-qtbase-qt-module-Network-ca2839a29ee1",
+        "SPDXRef-Package-qtbase-qt-module-PlatformModuleInternal-ca2839a29ee1"
+      ],
+      "ref": "SPDXRef-Package-qtnetworkauth-qt-module-NetworkAuth-b638119758aa"
+    }
+  ],
+  "metadata": {
+    "authors": [
+      {
+        "name": "TheQtCompany"
+      }
+    ],
+    "component": {
+      "bom-ref": "SPDXRef-Package-qtnetworkauth-b638119758aa",
+      "description": "Built by CMake 3.30.5 with RelWithDebInfo configuration for Linux (x86_64)\nqtnetworkauth was configured with:\n    qt-configure-module <sources>/qtnetworkauth -- -DFFMPEG_DIR=/usr/local/FFmpeg-n7.1.3 -DQT_DEPLOY_FFMPEG=TRUE -DINPUT_headersclean=ON -DCMAKE_MAKE_PROGRAM=/opt/ninja-1.12.1-linux-x64/ninja -DQT_INSTALL_CONFIG_INFO_FILES=ON -DQT_GENERATE_SBOM=ON -DQT_GENERATE_SOURCE_SBOM=ON -DQT_SBOM_VERIFY_SPDX_V2=ON -DQT_SBOM_REQUIRE_GENERATE_SPDX_V2_JSON=ON -DQT_SBOM_REQUIRE_VERIFY_SPDX_V2=ON -DQT_SBOM_VERIFY_CYDX_V1_6=ON -DQT_SBOM_REQUIRE_GENERATE_CYDX_V1_6=ON -DQT_SBOM_REQUIRE_VERIFY_CYDX_V1_6=ON -DQT_SBOM_PYTHON_INTERP=/usr/bin/python3 -DQT_SBOM_PYTHON_APPS_PATH=/usr/local/bin -DQT_LINT_SOURCE_SBOM=ON -DQT_INTERNAL_SBOM_DEFAULT_CHECKS=ON -DQT_INTERNAL_SBOM_AUDIT=ON -DQT_INTERNAL_SBOM_AUDIT_NO_ERROR=ON -DQT_BUILD_TESTS=OFF -DCMAKE_AUTOGEN_VERBOSE=ON -DCMAKE_MESSAGE_LOG_LEVEL=STATUS -DCMAKE_C_COMPILER_LAUNCHER=sccache -DCMAKE_CXX_COMPILER_LAUNCHER=sccache\n\n",
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "git://code.qt.io/qt/qtnetworkauth.git"
+        }
+      ],
+      "manufacturer": {
+        "name": "TheQtCompany",
+        "url": [
+          "https://qt.io"
+        ]
+      },
+      "name": "qtnetworkauth",
+      "supplier": {
+        "name": "TheQtCompany",
+        "url": [
+          "https://qt.io"
+        ]
+      },
+      "type": "framework",
+      "version": "6.11.1"
+    },
+    "lifecycles": [
+      {
+        "phase": "build"
+      }
+    ],
+    "manufacturer": {
+      "name": "TheQtCompany",
+      "url": [
+        "https://qt.io"
+      ]
+    },
+    "supplier": {
+      "name": "TheQtCompany",
+      "url": [
+        "https://qt.io"
+      ]
+    },
+    "timestamp": "2026-05-07T20:20:09+00:00",
+    "tools": {
+      "components": [
+        {
+          "description": "Build system tool used to build the project.",
+          "name": "cmake",
+          "type": "application",
+          "version": "3.30.5"
+        }
+      ]
+    }
+  },
+  "serialNumber": "urn:uuid:91860f48-15b0-50d9-a1ce-08f8b2410492",
+  "version": 1,
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6"
+}

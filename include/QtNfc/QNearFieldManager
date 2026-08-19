@@ -1,0 +1,1 @@
+#include <QtNfc/qnearfieldmanager.h> // IWYU pragma: export

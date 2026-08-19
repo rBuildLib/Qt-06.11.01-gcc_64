@@ -1,0 +1,1 @@
+#include <QtHttpServer/qhttpserverrequest.h> // IWYU pragma: export

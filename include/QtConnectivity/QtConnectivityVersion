@@ -1,0 +1,1 @@
+#include <QtConnectivity/qtconnectivityversion.h> // IWYU pragma: export

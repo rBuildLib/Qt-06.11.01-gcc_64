@@ -1,0 +1,1 @@
+#include <QtSensors/qgyroscope.h> // IWYU pragma: export

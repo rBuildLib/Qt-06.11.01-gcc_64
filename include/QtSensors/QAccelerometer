@@ -1,0 +1,1 @@
+#include <QtSensors/qaccelerometer.h> // IWYU pragma: export

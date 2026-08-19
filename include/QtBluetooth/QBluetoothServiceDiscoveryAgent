@@ -1,0 +1,1 @@
+#include <QtBluetooth/qbluetoothservicediscoveryagent.h> // IWYU pragma: export

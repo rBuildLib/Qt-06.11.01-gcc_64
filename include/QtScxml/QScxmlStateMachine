@@ -1,0 +1,1 @@
+#include <QtScxml/qscxmlstatemachine.h> // IWYU pragma: export

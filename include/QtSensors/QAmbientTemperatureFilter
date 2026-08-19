@@ -1,0 +1,1 @@
+#include <QtSensors/qambienttemperaturesensor.h> // IWYU pragma: export

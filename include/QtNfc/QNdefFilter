@@ -1,0 +1,1 @@
+#include <QtNfc/qndeffilter.h> // IWYU pragma: export

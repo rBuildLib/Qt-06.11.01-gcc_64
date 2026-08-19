@@ -1,0 +1,1 @@
+#include <QtStateMachine/qtstatemachineversion.h> // IWYU pragma: export

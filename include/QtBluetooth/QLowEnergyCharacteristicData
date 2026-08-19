@@ -1,0 +1,1 @@
+#include <QtBluetooth/qlowenergycharacteristicdata.h> // IWYU pragma: export

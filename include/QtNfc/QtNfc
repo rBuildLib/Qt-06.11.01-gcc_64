@@ -1,0 +1,14 @@
+#ifndef QT_QTNFC_MODULE_H
+#define QT_QTNFC_MODULE_H
+#include <QtNfc/QtNfcDepends>
+#include <QtNfc/qtnfcglobal.h>
+#include <QtNfc/qndeffilter.h>
+#include <QtNfc/qndefmessage.h>
+#include <QtNfc/qndefnfcsmartposterrecord.h>
+#include <QtNfc/qndefnfctextrecord.h>
+#include <QtNfc/qndefnfcurirecord.h>
+#include <QtNfc/qndefrecord.h>
+#include <QtNfc/qnearfieldmanager.h>
+#include <QtNfc/qnearfieldtarget.h>
+#include <QtNfc/qtnfcversion.h>
+#endif

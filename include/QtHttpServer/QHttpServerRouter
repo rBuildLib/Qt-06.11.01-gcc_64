@@ -1,0 +1,1 @@
+#include <QtHttpServer/qhttpserverrouter.h> // IWYU pragma: export

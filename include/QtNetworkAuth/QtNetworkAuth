@@ -1,0 +1,16 @@
+#ifndef QT_QTNETWORKAUTH_MODULE_H
+#define QT_QTNETWORKAUTH_MODULE_H
+#include <QtNetworkAuth/QtNetworkAuthDepends>
+#include <QtNetworkAuth/qoauthglobal.h>
+#include <QtNetworkAuth/qabstractoauth.h>
+#include <QtNetworkAuth/qabstractoauth2.h>
+#include <QtNetworkAuth/qabstractoauthreplyhandler.h>
+#include <QtNetworkAuth/qoauth1.h>
+#include <QtNetworkAuth/qoauth1signature.h>
+#include <QtNetworkAuth/qoauth2authorizationcodeflow.h>
+#include <QtNetworkAuth/qoauth2deviceauthorizationflow.h>
+#include <QtNetworkAuth/qoauthhttpserverreplyhandler.h>
+#include <QtNetworkAuth/qoauthoobreplyhandler.h>
+#include <QtNetworkAuth/qoauthurischemereplyhandler.h>
+#include <QtNetworkAuth/qtnetworkauthversion.h>
+#endif

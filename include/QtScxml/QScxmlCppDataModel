@@ -1,0 +1,1 @@
+#include <QtScxml/qscxmlcppdatamodel.h> // IWYU pragma: export

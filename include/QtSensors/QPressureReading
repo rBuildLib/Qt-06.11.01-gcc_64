@@ -1,0 +1,1 @@
+#include <QtSensors/qpressuresensor.h> // IWYU pragma: export

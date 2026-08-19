@@ -1,0 +1,1 @@
+#include <QtSensors/qambientlightsensor.h> // IWYU pragma: export

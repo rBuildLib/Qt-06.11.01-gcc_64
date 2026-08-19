@@ -1,0 +1,1 @@
+#include <QtNetworkAuth/qoauth1.h> // IWYU pragma: export

@@ -1,0 +1,1 @@
+#include <QtScxml/qscxmlerror.h> // IWYU pragma: export

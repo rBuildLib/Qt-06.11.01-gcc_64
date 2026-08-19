@@ -1,0 +1,11 @@
+QT.lottie_private.VERSION = 6.11.1
+QT.lottie_private.name = QtLottie
+QT.lottie_private.module =
+QT.lottie_private.libs = $$QT_MODULE_LIB_BASE
+QT.lottie_private.includes = $$QT_MODULE_INCLUDE_BASE/QtLottie/6.11.1 $$QT_MODULE_INCLUDE_BASE/QtLottie/6.11.1/QtLottie
+QT.lottie_private.frameworks = 
+QT.lottie_private.depends = lottie
+QT.lottie_private.uses = 
+QT.lottie_private.module_config = v2 internal_module
+QT.lottie_private.enabled_features = lottie-network
+QT.lottie_private.disabled_features = 

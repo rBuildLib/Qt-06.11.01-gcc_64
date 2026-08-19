@@ -1,0 +1,1 @@
+#include <QtSensors/qhumiditysensor.h> // IWYU pragma: export

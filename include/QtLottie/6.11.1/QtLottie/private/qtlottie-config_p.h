@@ -1,0 +1,7 @@
+#ifndef QT_FEATURES_Lottie_src_qtlottie_config_p_h_H
+#define QT_FEATURES_Lottie_src_qtlottie_config_p_h_H
+
+#define QT_FEATURE_lottie_network 1
+
+
+#endif // QT_FEATURES_Lottie_src_qtlottie_config_p_h_H

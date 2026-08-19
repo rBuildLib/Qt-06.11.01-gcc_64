@@ -1,0 +1,626 @@
+{
+  "components": [
+    {
+      "bom-ref": "SPDXRef-Package-qtremoteobjects-qt-tool-repc-a1dc17bba072",
+      "copyright": "Copyright (C) The Qt Company Ltd. and other contributors.",
+      "cpe": "cpe:2.3:a:qt:qt:6.11.1:*:*:*:*:*:*:*",
+      "licenses": [
+        {
+          "license": {
+            "acknowledgement": "concluded",
+            "id": "GPL-3.0-only"
+          }
+        },
+        {
+          "license": {
+            "acknowledgement": "concluded",
+            "id": "Qt-GPL-exception-1.0"
+          }
+        },
+        {
+          "license": {
+            "acknowledgement": "concluded",
+            "name": "LicenseRef-Qt-Commercial",
+            "text": {
+              "content": "Licensees holding valid commercial Qt licenses may use this software in\naccordance with the the terms contained in a written agreement between\nyou and The Qt Company. Alternatively, the terms and conditions that were\naccepted by the licensee when buying and/or downloading the\nsoftware do apply.\n\nFor the latest licensing terms and conditions, see https://www.qt.io/terms-conditions.\nFor further information use the contact form at https://www.qt.io/contact-us.\n\n",
+              "contentType": "text/plain"
+            }
+          }
+        }
+      ],
+      "name": "repc",
+      "properties": [
+        {
+          "name": "qt:sbom:entity_type",
+          "value": "QT_TOOL"
+        },
+        {
+          "name": "qt:sbom:is_qt_entity_type",
+          "value": "true"
+        },
+        {
+          "name": "spdx:external-reference:package-manager:purl",
+          "value": "pkg:github/qt/qtremoteobjects?library_name=repc#tools/repc"
+        },
+        {
+          "name": "spdx:external-reference:security:cpe23",
+          "value": "cpe:2.3:a:qt:qtremoteobjects:6.11.1:*:*:*:*:*:*:*"
+        }
+      ],
+      "purl": "pkg:generic/TheQtCompany/qtremoteobjects-repc?library_name=repc&vcs_url=https://code.qt.io/qt/qtremoteobjects.git#tools/repc",
+      "supplier": {
+        "name": "TheQtCompany",
+        "url": [
+          "https://qt.io"
+        ]
+      },
+      "type": "application",
+      "version": "6.11.1"
+    },
+    {
+      "bom-ref": "SPDXRef-Package-qtremoteobjects-build-tool-CMake-a1dc17bba072",
+      "name": "CMake",
+      "properties": [
+        {
+          "name": "qt:sbom:entity_type",
+          "value": "BUILD_TOOL"
+        }
+      ],
+      "type": "library",
+      "version": "3.30.5"
+    },
+    {
+      "bom-ref": "SPDXRef-Package-qtremoteobjects-build-tool-CMake-generator-Ninja-a1dc17bba072",
+      "name": "CMake generator Ninja",
+      "properties": [
+        {
+          "name": "qt:sbom:entity_type",
+          "value": "BUILD_TOOL"
+        }
+      ],
+      "type": "library",
+      "version": "1.12.1"
+    },
+    {
+      "bom-ref": "SPDXRef-Package-qtremoteobjects-build-tool-Compiler-GNU-a1dc17bba072",
+      "name": "Compiler GNU",
+      "properties": [
+        {
+          "name": "qt:sbom:entity_type",
+          "value": "BUILD_TOOL"
+        }
+      ],
+      "type": "library",
+      "version": "11.5.0"
+    },
+    {
+      "bom-ref": "SPDXRef-Package-qtbase-qt-module-Core-ca2839a29ee1",
+      "externalReferences": [
+        {
+          "type": "bom",
+          "url": "urn:cdx:915d2cd9-a0de-5c4e-8fb8-f24e0ec85ad4/1#SPDXRef-Package-qtbase-qt-module-Core-ca2839a29ee1"
+        }
+      ],
+      "name": "Core",
+      "type": "library",
+      "version": "6.11.1"
+    },
+    {
+      "bom-ref": "SPDXRef-Package-qtbase-qt-module-Gui-ca2839a29ee1",
+      "externalReferences": [
+        {
+          "type": "bom",
+          "url": "urn:cdx:915d2cd9-a0de-5c4e-8fb8-f24e0ec85ad4/1#SPDXRef-Package-qtbase-qt-module-Gui-ca2839a29ee1"
+        }
+      ],
+      "name": "Gui",
+      "type": "library",
+      "version": "6.11.1"
+    },
+    {
+      "bom-ref": "SPDXRef-Package-qtremoteobjects-build-tool-Linker-GNU-a1dc17bba072",
+      "name": "Linker GNU",
+      "properties": [
+        {
+          "name": "qt:sbom:entity_type",
+          "value": "BUILD_TOOL"
+        }
+      ],
+      "type": "library",
+      "version": "2.35.2"
+    },
+    {
+      "bom-ref": "SPDXRef-Package-qtbase-qt-module-Network-ca2839a29ee1",
+      "externalReferences": [
+        {
+          "type": "bom",
+          "url": "urn:cdx:915d2cd9-a0de-5c4e-8fb8-f24e0ec85ad4/1#SPDXRef-Package-qtbase-qt-module-Network-ca2839a29ee1"
+        }
+      ],
+      "name": "Network",
+      "type": "library",
+      "version": "6.11.1"
+    },
+    {
+      "bom-ref": "SPDXRef-Package-qtbase-qt-module-PlatformCommonInternal-ca2839a29ee1",
+      "externalReferences": [
+        {
+          "type": "bom",
+          "url": "urn:cdx:915d2cd9-a0de-5c4e-8fb8-f24e0ec85ad4/1#SPDXRef-Package-qtbase-qt-module-PlatformCommonInternal-ca2839a29ee1"
+        }
+      ],
+      "name": "PlatformCommonInternal",
+      "type": "library",
+      "version": "6.11.1"
+    },
+    {
+      "bom-ref": "SPDXRef-Package-qtbase-qt-module-PlatformModuleInternal-ca2839a29ee1",
+      "externalReferences": [
+        {
+          "type": "bom",
+          "url": "urn:cdx:915d2cd9-a0de-5c4e-8fb8-f24e0ec85ad4/1#SPDXRef-Package-qtbase-qt-module-PlatformModuleInternal-ca2839a29ee1"
+        }
+      ],
+      "name": "PlatformModuleInternal",
+      "type": "library",
+      "version": "6.11.1"
+    },
+    {
+      "bom-ref": "SPDXRef-Package-qtbase-qt-module-PlatformPluginInternal-ca2839a29ee1",
+      "externalReferences": [
+        {
+          "type": "bom",
+          "url": "urn:cdx:915d2cd9-a0de-5c4e-8fb8-f24e0ec85ad4/1#SPDXRef-Package-qtbase-qt-module-PlatformPluginInternal-ca2839a29ee1"
+        }
+      ],
+      "name": "PlatformPluginInternal",
+      "type": "library",
+      "version": "6.11.1"
+    },
+    {
+      "bom-ref": "SPDXRef-Package-qtbase-qt-module-PlatformToolInternal-ca2839a29ee1",
+      "externalReferences": [
+        {
+          "type": "bom",
+          "url": "urn:cdx:915d2cd9-a0de-5c4e-8fb8-f24e0ec85ad4/1#SPDXRef-Package-qtbase-qt-module-PlatformToolInternal-ca2839a29ee1"
+        }
+      ],
+      "name": "PlatformToolInternal",
+      "type": "library",
+      "version": "6.11.1"
+    },
+    {
+      "bom-ref": "SPDXRef-Package-qtdeclarative-qt-module-Qml-a30c4980599d",
+      "externalReferences": [
+        {
+          "type": "bom",
+          "url": "urn:cdx:715cc3f0-3d58-54aa-987f-d0287a41fcd5/1#SPDXRef-Package-qtdeclarative-qt-module-Qml-a30c4980599d"
+        }
+      ],
+      "name": "Qml",
+      "type": "library",
+      "version": "6.11.1"
+    },
+    {
+      "bom-ref": "SPDXRef-Package-qtremoteobjects-qt-module-RemoteObjects-a1dc17bba072",
+      "copyright": "Copyright (C) The Qt Company Ltd. and other contributors.",
+      "cpe": "cpe:2.3:a:qt:qt:6.11.1:*:*:*:*:*:*:*",
+      "licenses": [
+        {
+          "license": {
+            "acknowledgement": "concluded",
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "acknowledgement": "concluded",
+            "id": "GPL-3.0-only"
+          }
+        },
+        {
+          "license": {
+            "acknowledgement": "concluded",
+            "id": "LGPL-3.0-only"
+          }
+        },
+        {
+          "license": {
+            "acknowledgement": "concluded",
+            "name": "LicenseRef-Qt-Commercial",
+            "text": {
+              "content": "Licensees holding valid commercial Qt licenses may use this software in\naccordance with the the terms contained in a written agreement between\nyou and The Qt Company. Alternatively, the terms and conditions that were\naccepted by the licensee when buying and/or downloading the\nsoftware do apply.\n\nFor the latest licensing terms and conditions, see https://www.qt.io/terms-conditions.\nFor further information use the contact form at https://www.qt.io/contact-us.\n\n",
+              "contentType": "text/plain"
+            }
+          }
+        }
+      ],
+      "name": "RemoteObjects",
+      "properties": [
+        {
+          "name": "qt:sbom:entity_type",
+          "value": "QT_MODULE"
+        },
+        {
+          "name": "qt:sbom:is_qt_entity_type",
+          "value": "true"
+        },
+        {
+          "name": "spdx:external-reference:package-manager:purl",
+          "value": "pkg:github/qt/qtremoteobjects?library_name=RemoteObjects#src/remoteobjects"
+        },
+        {
+          "name": "spdx:external-reference:security:cpe23",
+          "value": "cpe:2.3:a:qt:qtremoteobjects:6.11.1:*:*:*:*:*:*:*"
+        }
+      ],
+      "purl": "pkg:generic/TheQtCompany/qtremoteobjects-RemoteObjects?library_name=RemoteObjects&vcs_url=https://code.qt.io/qt/qtremoteobjects.git#src/remoteobjects",
+      "supplier": {
+        "name": "TheQtCompany",
+        "url": [
+          "https://qt.io"
+        ]
+      },
+      "type": "library",
+      "version": "6.11.1"
+    },
+    {
+      "bom-ref": "SPDXRef-Package-qtremoteobjects-qt-module-RemoteObjectsQml-a1dc17bba072",
+      "copyright": "Copyright (C) The Qt Company Ltd. and other contributors.",
+      "cpe": "cpe:2.3:a:qt:qt:6.11.1:*:*:*:*:*:*:*",
+      "licenses": [
+        {
+          "license": {
+            "acknowledgement": "concluded",
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "acknowledgement": "concluded",
+            "id": "GPL-3.0-only"
+          }
+        },
+        {
+          "license": {
+            "acknowledgement": "concluded",
+            "id": "LGPL-3.0-only"
+          }
+        },
+        {
+          "license": {
+            "acknowledgement": "concluded",
+            "name": "LicenseRef-Qt-Commercial",
+            "text": {
+              "content": "Licensees holding valid commercial Qt licenses may use this software in\naccordance with the the terms contained in a written agreement between\nyou and The Qt Company. Alternatively, the terms and conditions that were\naccepted by the licensee when buying and/or downloading the\nsoftware do apply.\n\nFor the latest licensing terms and conditions, see https://www.qt.io/terms-conditions.\nFor further information use the contact form at https://www.qt.io/contact-us.\n\n",
+              "contentType": "text/plain"
+            }
+          }
+        }
+      ],
+      "name": "RemoteObjectsQml",
+      "properties": [
+        {
+          "name": "qt:sbom:entity_type",
+          "value": "QT_MODULE"
+        },
+        {
+          "name": "qt:sbom:is_qt_entity_type",
+          "value": "true"
+        },
+        {
+          "name": "spdx:external-reference:package-manager:purl",
+          "value": "pkg:github/qt/qtremoteobjects?library_name=RemoteObjectsQml#src/remoteobjectsqml"
+        },
+        {
+          "name": "spdx:external-reference:security:cpe23",
+          "value": "cpe:2.3:a:qt:qtremoteobjects:6.11.1:*:*:*:*:*:*:*"
+        }
+      ],
+      "purl": "pkg:generic/TheQtCompany/qtremoteobjects-RemoteObjectsQml?library_name=RemoteObjectsQml&vcs_url=https://code.qt.io/qt/qtremoteobjects.git#src/remoteobjectsqml",
+      "supplier": {
+        "name": "TheQtCompany",
+        "url": [
+          "https://qt.io"
+        ]
+      },
+      "type": "library",
+      "version": "6.11.1"
+    },
+    {
+      "bom-ref": "SPDXRef-Package-qtremoteobjects-qt-module-RepParser-a1dc17bba072",
+      "copyright": "Copyright (C) The Qt Company Ltd. and other contributors.",
+      "cpe": "cpe:2.3:a:qt:qt:6.11.1:*:*:*:*:*:*:*",
+      "licenses": [
+        {
+          "license": {
+            "acknowledgement": "concluded",
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "acknowledgement": "concluded",
+            "id": "GPL-3.0-only"
+          }
+        },
+        {
+          "license": {
+            "acknowledgement": "concluded",
+            "id": "LGPL-3.0-only"
+          }
+        },
+        {
+          "license": {
+            "acknowledgement": "concluded",
+            "name": "LicenseRef-Qt-Commercial",
+            "text": {
+              "content": "Licensees holding valid commercial Qt licenses may use this software in\naccordance with the the terms contained in a written agreement between\nyou and The Qt Company. Alternatively, the terms and conditions that were\naccepted by the licensee when buying and/or downloading the\nsoftware do apply.\n\nFor the latest licensing terms and conditions, see https://www.qt.io/terms-conditions.\nFor further information use the contact form at https://www.qt.io/contact-us.\n\n",
+              "contentType": "text/plain"
+            }
+          }
+        }
+      ],
+      "name": "RepParser",
+      "properties": [
+        {
+          "name": "qt:sbom:entity_type",
+          "value": "QT_MODULE"
+        },
+        {
+          "name": "qt:sbom:is_qt_entity_type",
+          "value": "true"
+        },
+        {
+          "name": "spdx:external-reference:package-manager:purl",
+          "value": "pkg:github/qt/qtremoteobjects?library_name=RepParser"
+        },
+        {
+          "name": "spdx:external-reference:security:cpe23",
+          "value": "cpe:2.3:a:qt:qtremoteobjects:6.11.1:*:*:*:*:*:*:*"
+        }
+      ],
+      "purl": "pkg:generic/TheQtCompany/qtremoteobjects-RepParser?library_name=RepParser&vcs_url=https://code.qt.io/qt/qtremoteobjects.git",
+      "supplier": {
+        "name": "TheQtCompany",
+        "url": [
+          "https://qt.io"
+        ]
+      },
+      "type": "library",
+      "version": "6.11.1"
+    },
+    {
+      "bom-ref": "SPDXRef-Package-qtremoteobjects-qt-plugin-declarative-remoteobjects-a1dc17bba072",
+      "copyright": "Copyright (C) The Qt Company Ltd. and other contributors.",
+      "cpe": "cpe:2.3:a:qt:qt:6.11.1:*:*:*:*:*:*:*",
+      "licenses": [
+        {
+          "license": {
+            "acknowledgement": "concluded",
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "acknowledgement": "concluded",
+            "id": "GPL-3.0-only"
+          }
+        },
+        {
+          "license": {
+            "acknowledgement": "concluded",
+            "id": "LGPL-3.0-only"
+          }
+        },
+        {
+          "license": {
+            "acknowledgement": "concluded",
+            "name": "LicenseRef-Qt-Commercial",
+            "text": {
+              "content": "Licensees holding valid commercial Qt licenses may use this software in\naccordance with the the terms contained in a written agreement between\nyou and The Qt Company. Alternatively, the terms and conditions that were\naccepted by the licensee when buying and/or downloading the\nsoftware do apply.\n\nFor the latest licensing terms and conditions, see https://www.qt.io/terms-conditions.\nFor further information use the contact form at https://www.qt.io/contact-us.\n\n",
+              "contentType": "text/plain"
+            }
+          }
+        }
+      ],
+      "name": "declarative_remoteobjects",
+      "properties": [
+        {
+          "name": "qt:sbom:entity_type",
+          "value": "QT_PLUGIN"
+        },
+        {
+          "name": "qt:sbom:is_qt_entity_type",
+          "value": "true"
+        },
+        {
+          "name": "spdx:external-reference:package-manager:purl",
+          "value": "pkg:github/qt/qtremoteobjects?library_name=declarative_remoteobjects#src/remoteobjectsqml"
+        },
+        {
+          "name": "spdx:external-reference:security:cpe23",
+          "value": "cpe:2.3:a:qt:qtremoteobjects:6.11.1:*:*:*:*:*:*:*"
+        }
+      ],
+      "purl": "pkg:generic/TheQtCompany/qtremoteobjects-declarative_remoteobjects?library_name=declarative_remoteobjects&vcs_url=https://code.qt.io/qt/qtremoteobjects.git#src/remoteobjectsqml",
+      "supplier": {
+        "name": "TheQtCompany",
+        "url": [
+          "https://qt.io"
+        ]
+      },
+      "type": "library",
+      "version": "6.11.1"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "SPDXRef-Package-qtbase-qt-module-Core-ca2839a29ee1"
+    },
+    {
+      "ref": "SPDXRef-Package-qtbase-qt-module-Gui-ca2839a29ee1"
+    },
+    {
+      "ref": "SPDXRef-Package-qtbase-qt-module-Network-ca2839a29ee1"
+    },
+    {
+      "ref": "SPDXRef-Package-qtbase-qt-module-PlatformCommonInternal-ca2839a29ee1"
+    },
+    {
+      "ref": "SPDXRef-Package-qtbase-qt-module-PlatformModuleInternal-ca2839a29ee1"
+    },
+    {
+      "ref": "SPDXRef-Package-qtbase-qt-module-PlatformPluginInternal-ca2839a29ee1"
+    },
+    {
+      "ref": "SPDXRef-Package-qtbase-qt-module-PlatformToolInternal-ca2839a29ee1"
+    },
+    {
+      "ref": "SPDXRef-Package-qtdeclarative-qt-module-Qml-a30c4980599d"
+    },
+    {
+      "dependsOn": [
+        "SPDXRef-Package-qtremoteobjects-build-tool-CMake-a1dc17bba072",
+        "SPDXRef-Package-qtremoteobjects-build-tool-CMake-generator-Ninja-a1dc17bba072",
+        "SPDXRef-Package-qtremoteobjects-build-tool-Compiler-GNU-a1dc17bba072",
+        "SPDXRef-Package-qtremoteobjects-build-tool-Linker-GNU-a1dc17bba072",
+        "SPDXRef-Package-qtremoteobjects-qt-module-RemoteObjects-a1dc17bba072",
+        "SPDXRef-Package-qtremoteobjects-qt-module-RemoteObjectsQml-a1dc17bba072",
+        "SPDXRef-Package-qtremoteobjects-qt-module-RepParser-a1dc17bba072",
+        "SPDXRef-Package-qtremoteobjects-qt-plugin-declarative-remoteobjects-a1dc17bba072",
+        "SPDXRef-Package-qtremoteobjects-qt-tool-repc-a1dc17bba072"
+      ],
+      "ref": "SPDXRef-Package-qtremoteobjects-a1dc17bba072"
+    },
+    {
+      "dependsOn": [
+        "SPDXRef-Package-qtremoteobjects-a1dc17bba072"
+      ],
+      "ref": "SPDXRef-Package-qtremoteobjects-build-tool-CMake-a1dc17bba072"
+    },
+    {
+      "dependsOn": [
+        "SPDXRef-Package-qtremoteobjects-a1dc17bba072"
+      ],
+      "ref": "SPDXRef-Package-qtremoteobjects-build-tool-CMake-generator-Ninja-a1dc17bba072"
+    },
+    {
+      "dependsOn": [
+        "SPDXRef-Package-qtremoteobjects-a1dc17bba072"
+      ],
+      "ref": "SPDXRef-Package-qtremoteobjects-build-tool-Compiler-GNU-a1dc17bba072"
+    },
+    {
+      "dependsOn": [
+        "SPDXRef-Package-qtremoteobjects-a1dc17bba072"
+      ],
+      "ref": "SPDXRef-Package-qtremoteobjects-build-tool-Linker-GNU-a1dc17bba072"
+    },
+    {
+      "dependsOn": [
+        "SPDXRef-Package-qtbase-qt-module-Core-ca2839a29ee1",
+        "SPDXRef-Package-qtbase-qt-module-Network-ca2839a29ee1",
+        "SPDXRef-Package-qtbase-qt-module-PlatformModuleInternal-ca2839a29ee1"
+      ],
+      "ref": "SPDXRef-Package-qtremoteobjects-qt-module-RemoteObjects-a1dc17bba072"
+    },
+    {
+      "dependsOn": [
+        "SPDXRef-Package-qtbase-qt-module-Core-ca2839a29ee1",
+        "SPDXRef-Package-qtbase-qt-module-Gui-ca2839a29ee1",
+        "SPDXRef-Package-qtbase-qt-module-PlatformModuleInternal-ca2839a29ee1",
+        "SPDXRef-Package-qtdeclarative-qt-module-Qml-a30c4980599d",
+        "SPDXRef-Package-qtremoteobjects-qt-module-RemoteObjects-a1dc17bba072"
+      ],
+      "ref": "SPDXRef-Package-qtremoteobjects-qt-module-RemoteObjectsQml-a1dc17bba072"
+    },
+    {
+      "dependsOn": [
+        "SPDXRef-Package-qtbase-qt-module-Core-ca2839a29ee1"
+      ],
+      "ref": "SPDXRef-Package-qtremoteobjects-qt-module-RepParser-a1dc17bba072"
+    },
+    {
+      "dependsOn": [
+        "SPDXRef-Package-qtbase-qt-module-PlatformPluginInternal-ca2839a29ee1",
+        "SPDXRef-Package-qtdeclarative-qt-module-Qml-a30c4980599d",
+        "SPDXRef-Package-qtremoteobjects-qt-module-RemoteObjectsQml-a1dc17bba072"
+      ],
+      "ref": "SPDXRef-Package-qtremoteobjects-qt-plugin-declarative-remoteobjects-a1dc17bba072"
+    },
+    {
+      "dependsOn": [
+        "SPDXRef-Package-qtbase-qt-module-Core-ca2839a29ee1",
+        "SPDXRef-Package-qtbase-qt-module-PlatformCommonInternal-ca2839a29ee1",
+        "SPDXRef-Package-qtbase-qt-module-PlatformToolInternal-ca2839a29ee1"
+      ],
+      "ref": "SPDXRef-Package-qtremoteobjects-qt-tool-repc-a1dc17bba072"
+    }
+  ],
+  "metadata": {
+    "authors": [
+      {
+        "name": "TheQtCompany"
+      }
+    ],
+    "component": {
+      "bom-ref": "SPDXRef-Package-qtremoteobjects-a1dc17bba072",
+      "description": "Built by CMake 3.30.5 with RelWithDebInfo configuration for Linux (x86_64)\nqtremoteobjects was configured with:\n    qt-configure-module <sources>/qtremoteobjects -- -DFFMPEG_DIR=/usr/local/FFmpeg-n7.1.3 -DQT_DEPLOY_FFMPEG=TRUE -DINPUT_headersclean=ON -DCMAKE_MAKE_PROGRAM=/opt/ninja-1.12.1-linux-x64/ninja -DQT_INSTALL_CONFIG_INFO_FILES=ON -DQT_GENERATE_SBOM=ON -DQT_GENERATE_SOURCE_SBOM=ON -DQT_SBOM_VERIFY_SPDX_V2=ON -DQT_SBOM_REQUIRE_GENERATE_SPDX_V2_JSON=ON -DQT_SBOM_REQUIRE_VERIFY_SPDX_V2=ON -DQT_SBOM_VERIFY_CYDX_V1_6=ON -DQT_SBOM_REQUIRE_GENERATE_CYDX_V1_6=ON -DQT_SBOM_REQUIRE_VERIFY_CYDX_V1_6=ON -DQT_SBOM_PYTHON_INTERP=/usr/bin/python3 -DQT_SBOM_PYTHON_APPS_PATH=/usr/local/bin -DQT_LINT_SOURCE_SBOM=ON -DQT_INTERNAL_SBOM_DEFAULT_CHECKS=ON -DQT_INTERNAL_SBOM_AUDIT=ON -DQT_INTERNAL_SBOM_AUDIT_NO_ERROR=ON -DQT_BUILD_TESTS=OFF -DCMAKE_AUTOGEN_VERBOSE=ON -DCMAKE_MESSAGE_LOG_LEVEL=STATUS -DCMAKE_C_COMPILER_LAUNCHER=sccache -DCMAKE_CXX_COMPILER_LAUNCHER=sccache\n\n",
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "git://code.qt.io/qt/qtremoteobjects.git"
+        }
+      ],
+      "manufacturer": {
+        "name": "TheQtCompany",
+        "url": [
+          "https://qt.io"
+        ]
+      },
+      "name": "qtremoteobjects",
+      "supplier": {
+        "name": "TheQtCompany",
+        "url": [
+          "https://qt.io"
+        ]
+      },
+      "type": "framework",
+      "version": "6.11.1"
+    },
+    "lifecycles": [
+      {
+        "phase": "build"
+      }
+    ],
+    "manufacturer": {
+      "name": "TheQtCompany",
+      "url": [
+        "https://qt.io"
+      ]
+    },
+    "supplier": {
+      "name": "TheQtCompany",
+      "url": [
+        "https://qt.io"
+      ]
+    },
+    "timestamp": "2026-05-08T01:26:13+00:00",
+    "tools": {
+      "components": [
+        {
+          "description": "Build system tool used to build the project.",
+          "name": "cmake",
+          "type": "application",
+          "version": "3.30.5"
+        }
+      ]
+    }
+  },
+  "serialNumber": "urn:uuid:09dbfe35-bf2f-5289-9ff1-fa06de84ff8f",
+  "version": 1,
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6"
+}

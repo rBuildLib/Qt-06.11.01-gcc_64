@@ -1,0 +1,12 @@
+prefix=/tmp/qtNew/6.11.1/gcc_64
+exec_prefix=${prefix}
+bindir=${prefix}/bin
+libexecdir=${prefix}/libexec
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: Qt6 LottieVectorImageHelpers
+Description: Qt LottieVectorImageHelpers module
+Version: 6.11.1
+Libs: -L${libdir} -lQt6LottieVectorImageHelpers
+Cflags: -I${includedir}/QtLottieVectorImageHelpers -I${includedir} -DQT_LOTTIEVECTORIMAGEHELPERS_LIB

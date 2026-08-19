@@ -1,0 +1,1 @@
+#include <QtTextToSpeech/qtexttospeechplugin.h> // IWYU pragma: export

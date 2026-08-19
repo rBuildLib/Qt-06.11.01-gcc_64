@@ -1,0 +1,1 @@
+#include <QtStateMachine/qmouseeventtransition.h> // IWYU pragma: export

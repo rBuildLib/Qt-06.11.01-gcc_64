@@ -1,0 +1,532 @@
+{
+  "components": [
+    {
+      "bom-ref": "SPDXRef-Package-qtspeech-build-tool-CMake-22748d1053d8",
+      "name": "CMake",
+      "properties": [
+        {
+          "name": "qt:sbom:entity_type",
+          "value": "BUILD_TOOL"
+        }
+      ],
+      "type": "library",
+      "version": "3.30.5"
+    },
+    {
+      "bom-ref": "SPDXRef-Package-qtspeech-build-tool-CMake-generator-Ninja-22748d1053d8",
+      "name": "CMake generator Ninja",
+      "properties": [
+        {
+          "name": "qt:sbom:entity_type",
+          "value": "BUILD_TOOL"
+        }
+      ],
+      "type": "library",
+      "version": "1.12.1"
+    },
+    {
+      "bom-ref": "SPDXRef-Package-qtspeech-build-tool-Compiler-GNU-22748d1053d8",
+      "name": "Compiler GNU",
+      "properties": [
+        {
+          "name": "qt:sbom:entity_type",
+          "value": "BUILD_TOOL"
+        }
+      ],
+      "type": "library",
+      "version": "11.5.0"
+    },
+    {
+      "bom-ref": "SPDXRef-Package-qtbase-qt-module-Core-ca2839a29ee1",
+      "externalReferences": [
+        {
+          "type": "bom",
+          "url": "urn:cdx:915d2cd9-a0de-5c4e-8fb8-f24e0ec85ad4/1#SPDXRef-Package-qtbase-qt-module-Core-ca2839a29ee1"
+        }
+      ],
+      "name": "Core",
+      "type": "library",
+      "version": "6.11.1"
+    },
+    {
+      "bom-ref": "SPDXRef-Package-qtspeech-build-tool-Linker-GNU-22748d1053d8",
+      "name": "Linker GNU",
+      "properties": [
+        {
+          "name": "qt:sbom:entity_type",
+          "value": "BUILD_TOOL"
+        }
+      ],
+      "type": "library",
+      "version": "2.35.2"
+    },
+    {
+      "bom-ref": "SPDXRef-Package-qtmultimedia-qt-module-Multimedia-7f6e1399b61d",
+      "externalReferences": [
+        {
+          "type": "bom",
+          "url": "urn:cdx:4a4262c9-1a0b-536c-9364-421aceeccfbb/1#SPDXRef-Package-qtmultimedia-qt-module-Multimedia-7f6e1399b61d"
+        }
+      ],
+      "name": "Multimedia",
+      "type": "library",
+      "version": "6.11.1"
+    },
+    {
+      "bom-ref": "SPDXRef-Package-qtbase-qt-module-PlatformModuleInternal-ca2839a29ee1",
+      "externalReferences": [
+        {
+          "type": "bom",
+          "url": "urn:cdx:915d2cd9-a0de-5c4e-8fb8-f24e0ec85ad4/1#SPDXRef-Package-qtbase-qt-module-PlatformModuleInternal-ca2839a29ee1"
+        }
+      ],
+      "name": "PlatformModuleInternal",
+      "type": "library",
+      "version": "6.11.1"
+    },
+    {
+      "bom-ref": "SPDXRef-Package-qtbase-qt-module-PlatformPluginInternal-ca2839a29ee1",
+      "externalReferences": [
+        {
+          "type": "bom",
+          "url": "urn:cdx:915d2cd9-a0de-5c4e-8fb8-f24e0ec85ad4/1#SPDXRef-Package-qtbase-qt-module-PlatformPluginInternal-ca2839a29ee1"
+        }
+      ],
+      "name": "PlatformPluginInternal",
+      "type": "library",
+      "version": "6.11.1"
+    },
+    {
+      "bom-ref": "SPDXRef-Package-qtspeech-qt-plugin-QTextToSpeechMockPlugin-22748d1053d8",
+      "copyright": "Copyright (C) The Qt Company Ltd. and other contributors.",
+      "cpe": "cpe:2.3:a:qt:qt:6.11.1:*:*:*:*:*:*:*",
+      "licenses": [
+        {
+          "license": {
+            "acknowledgement": "concluded",
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "acknowledgement": "concluded",
+            "id": "GPL-3.0-only"
+          }
+        },
+        {
+          "license": {
+            "acknowledgement": "concluded",
+            "id": "LGPL-3.0-only"
+          }
+        },
+        {
+          "license": {
+            "acknowledgement": "concluded",
+            "name": "LicenseRef-Qt-Commercial",
+            "text": {
+              "content": "Licensees holding valid commercial Qt licenses may use this software in\naccordance with the the terms contained in a written agreement between\nyou and The Qt Company. Alternatively, the terms and conditions that were\naccepted by the licensee when buying and/or downloading the\nsoftware do apply.\n\nFor the latest licensing terms and conditions, see https://www.qt.io/terms-conditions.\nFor further information use the contact form at https://www.qt.io/contact-us.\n\n",
+              "contentType": "text/plain"
+            }
+          }
+        }
+      ],
+      "name": "QTextToSpeechMockPlugin",
+      "properties": [
+        {
+          "name": "qt:sbom:entity_type",
+          "value": "QT_PLUGIN"
+        },
+        {
+          "name": "qt:sbom:is_qt_entity_type",
+          "value": "true"
+        },
+        {
+          "name": "spdx:external-reference:package-manager:purl",
+          "value": "pkg:github/qt/qtspeech?library_name=QTextToSpeechMockPlugin#src/plugins/tts/mock"
+        },
+        {
+          "name": "spdx:external-reference:security:cpe23",
+          "value": "cpe:2.3:a:qt:qtspeech:6.11.1:*:*:*:*:*:*:*"
+        }
+      ],
+      "purl": "pkg:generic/TheQtCompany/qtspeech-QTextToSpeechMockPlugin?library_name=QTextToSpeechMockPlugin&vcs_url=https://code.qt.io/qt/qtspeech.git#src/plugins/tts/mock",
+      "supplier": {
+        "name": "TheQtCompany",
+        "url": [
+          "https://qt.io"
+        ]
+      },
+      "type": "library",
+      "version": "6.11.1"
+    },
+    {
+      "bom-ref": "SPDXRef-Package-qtspeech-qt-plugin-QTextToSpeechSpeechdPlugin-22748d1053d8",
+      "copyright": "Copyright (C) The Qt Company Ltd. and other contributors.",
+      "cpe": "cpe:2.3:a:qt:qt:6.11.1:*:*:*:*:*:*:*",
+      "licenses": [
+        {
+          "license": {
+            "acknowledgement": "concluded",
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "acknowledgement": "concluded",
+            "id": "GPL-3.0-only"
+          }
+        },
+        {
+          "license": {
+            "acknowledgement": "concluded",
+            "id": "LGPL-3.0-only"
+          }
+        },
+        {
+          "license": {
+            "acknowledgement": "concluded",
+            "name": "LicenseRef-Qt-Commercial",
+            "text": {
+              "content": "Licensees holding valid commercial Qt licenses may use this software in\naccordance with the the terms contained in a written agreement between\nyou and The Qt Company. Alternatively, the terms and conditions that were\naccepted by the licensee when buying and/or downloading the\nsoftware do apply.\n\nFor the latest licensing terms and conditions, see https://www.qt.io/terms-conditions.\nFor further information use the contact form at https://www.qt.io/contact-us.\n\n",
+              "contentType": "text/plain"
+            }
+          }
+        }
+      ],
+      "name": "QTextToSpeechSpeechdPlugin",
+      "properties": [
+        {
+          "name": "qt:sbom:entity_type",
+          "value": "QT_PLUGIN"
+        },
+        {
+          "name": "qt:sbom:is_qt_entity_type",
+          "value": "true"
+        },
+        {
+          "name": "spdx:external-reference:package-manager:purl",
+          "value": "pkg:github/qt/qtspeech?library_name=QTextToSpeechSpeechdPlugin#src/plugins/tts/speechdispatcher"
+        },
+        {
+          "name": "spdx:external-reference:security:cpe23",
+          "value": "cpe:2.3:a:qt:qtspeech:6.11.1:*:*:*:*:*:*:*"
+        }
+      ],
+      "purl": "pkg:generic/TheQtCompany/qtspeech-QTextToSpeechSpeechdPlugin?library_name=QTextToSpeechSpeechdPlugin&vcs_url=https://code.qt.io/qt/qtspeech.git#src/plugins/tts/speechdispatcher",
+      "supplier": {
+        "name": "TheQtCompany",
+        "url": [
+          "https://qt.io"
+        ]
+      },
+      "type": "library",
+      "version": "6.11.1"
+    },
+    {
+      "bom-ref": "SPDXRef-Package-qtdeclarative-qt-module-Qml-a30c4980599d",
+      "externalReferences": [
+        {
+          "type": "bom",
+          "url": "urn:cdx:715cc3f0-3d58-54aa-987f-d0287a41fcd5/1#SPDXRef-Package-qtdeclarative-qt-module-Qml-a30c4980599d"
+        }
+      ],
+      "name": "Qml",
+      "type": "library",
+      "version": "6.11.1"
+    },
+    {
+      "bom-ref": "SPDXRef-Package-qtspeech-system-3rdparty-SpeechDispatcher-22748d1053d8",
+      "name": "SpeechDispatcher",
+      "properties": [
+        {
+          "name": "qt:sbom:entity_type",
+          "value": "SYSTEM_LIBRARY"
+        }
+      ],
+      "type": "library",
+      "version": "0.10.2"
+    },
+    {
+      "bom-ref": "SPDXRef-Package-qtspeech-qt-module-TextToSpeech-22748d1053d8",
+      "copyright": "Copyright (C) The Qt Company Ltd. and other contributors.",
+      "cpe": "cpe:2.3:a:qt:qt:6.11.1:*:*:*:*:*:*:*",
+      "licenses": [
+        {
+          "license": {
+            "acknowledgement": "concluded",
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "acknowledgement": "concluded",
+            "id": "GPL-3.0-only"
+          }
+        },
+        {
+          "license": {
+            "acknowledgement": "concluded",
+            "id": "LGPL-3.0-only"
+          }
+        },
+        {
+          "license": {
+            "acknowledgement": "concluded",
+            "name": "LicenseRef-Qt-Commercial",
+            "text": {
+              "content": "Licensees holding valid commercial Qt licenses may use this software in\naccordance with the the terms contained in a written agreement between\nyou and The Qt Company. Alternatively, the terms and conditions that were\naccepted by the licensee when buying and/or downloading the\nsoftware do apply.\n\nFor the latest licensing terms and conditions, see https://www.qt.io/terms-conditions.\nFor further information use the contact form at https://www.qt.io/contact-us.\n\n",
+              "contentType": "text/plain"
+            }
+          }
+        }
+      ],
+      "name": "TextToSpeech",
+      "properties": [
+        {
+          "name": "qt:sbom:entity_type",
+          "value": "QT_MODULE"
+        },
+        {
+          "name": "qt:sbom:is_qt_entity_type",
+          "value": "true"
+        },
+        {
+          "name": "spdx:external-reference:package-manager:purl",
+          "value": "pkg:github/qt/qtspeech?library_name=TextToSpeech#src/tts"
+        },
+        {
+          "name": "spdx:external-reference:security:cpe23",
+          "value": "cpe:2.3:a:qt:qtspeech:6.11.1:*:*:*:*:*:*:*"
+        }
+      ],
+      "purl": "pkg:generic/TheQtCompany/qtspeech-TextToSpeech?library_name=TextToSpeech&vcs_url=https://code.qt.io/qt/qtspeech.git#src/tts",
+      "supplier": {
+        "name": "TheQtCompany",
+        "url": [
+          "https://qt.io"
+        ]
+      },
+      "type": "library",
+      "version": "6.11.1"
+    },
+    {
+      "bom-ref": "SPDXRef-Package-qtspeech-qt-plugin-TextToSpeechQml-22748d1053d8",
+      "copyright": "Copyright (C) The Qt Company Ltd. and other contributors.",
+      "cpe": "cpe:2.3:a:qt:qt:6.11.1:*:*:*:*:*:*:*",
+      "licenses": [
+        {
+          "license": {
+            "acknowledgement": "concluded",
+            "id": "GPL-2.0-only"
+          }
+        },
+        {
+          "license": {
+            "acknowledgement": "concluded",
+            "id": "GPL-3.0-only"
+          }
+        },
+        {
+          "license": {
+            "acknowledgement": "concluded",
+            "id": "LGPL-3.0-only"
+          }
+        },
+        {
+          "license": {
+            "acknowledgement": "concluded",
+            "name": "LicenseRef-Qt-Commercial",
+            "text": {
+              "content": "Licensees holding valid commercial Qt licenses may use this software in\naccordance with the the terms contained in a written agreement between\nyou and The Qt Company. Alternatively, the terms and conditions that were\naccepted by the licensee when buying and/or downloading the\nsoftware do apply.\n\nFor the latest licensing terms and conditions, see https://www.qt.io/terms-conditions.\nFor further information use the contact form at https://www.qt.io/contact-us.\n\n",
+              "contentType": "text/plain"
+            }
+          }
+        }
+      ],
+      "name": "TextToSpeechQml",
+      "properties": [
+        {
+          "name": "qt:sbom:entity_type",
+          "value": "QT_PLUGIN"
+        },
+        {
+          "name": "qt:sbom:is_qt_entity_type",
+          "value": "true"
+        },
+        {
+          "name": "spdx:external-reference:package-manager:purl",
+          "value": "pkg:github/qt/qtspeech?library_name=TextToSpeechQml#src/tts/qml"
+        },
+        {
+          "name": "spdx:external-reference:security:cpe23",
+          "value": "cpe:2.3:a:qt:qtspeech:6.11.1:*:*:*:*:*:*:*"
+        }
+      ],
+      "purl": "pkg:generic/TheQtCompany/qtspeech-TextToSpeechQml?library_name=TextToSpeechQml&vcs_url=https://code.qt.io/qt/qtspeech.git#src/tts/qml",
+      "supplier": {
+        "name": "TheQtCompany",
+        "url": [
+          "https://qt.io"
+        ]
+      },
+      "type": "library",
+      "version": "6.11.1"
+    }
+  ],
+  "dependencies": [
+    {
+      "ref": "SPDXRef-Package-qtbase-qt-module-Core-ca2839a29ee1"
+    },
+    {
+      "ref": "SPDXRef-Package-qtbase-qt-module-PlatformModuleInternal-ca2839a29ee1"
+    },
+    {
+      "ref": "SPDXRef-Package-qtbase-qt-module-PlatformPluginInternal-ca2839a29ee1"
+    },
+    {
+      "ref": "SPDXRef-Package-qtdeclarative-qt-module-Qml-a30c4980599d"
+    },
+    {
+      "ref": "SPDXRef-Package-qtmultimedia-qt-module-Multimedia-7f6e1399b61d"
+    },
+    {
+      "dependsOn": [
+        "SPDXRef-Package-qtspeech-build-tool-CMake-22748d1053d8",
+        "SPDXRef-Package-qtspeech-build-tool-CMake-generator-Ninja-22748d1053d8",
+        "SPDXRef-Package-qtspeech-build-tool-Compiler-GNU-22748d1053d8",
+        "SPDXRef-Package-qtspeech-build-tool-Linker-GNU-22748d1053d8",
+        "SPDXRef-Package-qtspeech-qt-module-TextToSpeech-22748d1053d8",
+        "SPDXRef-Package-qtspeech-qt-plugin-QTextToSpeechMockPlugin-22748d1053d8",
+        "SPDXRef-Package-qtspeech-qt-plugin-QTextToSpeechSpeechdPlugin-22748d1053d8",
+        "SPDXRef-Package-qtspeech-qt-plugin-TextToSpeechQml-22748d1053d8",
+        "SPDXRef-Package-qtspeech-system-3rdparty-SpeechDispatcher-22748d1053d8"
+      ],
+      "ref": "SPDXRef-Package-qtspeech-22748d1053d8"
+    },
+    {
+      "dependsOn": [
+        "SPDXRef-Package-qtspeech-22748d1053d8"
+      ],
+      "ref": "SPDXRef-Package-qtspeech-build-tool-CMake-22748d1053d8"
+    },
+    {
+      "dependsOn": [
+        "SPDXRef-Package-qtspeech-22748d1053d8"
+      ],
+      "ref": "SPDXRef-Package-qtspeech-build-tool-CMake-generator-Ninja-22748d1053d8"
+    },
+    {
+      "dependsOn": [
+        "SPDXRef-Package-qtspeech-22748d1053d8"
+      ],
+      "ref": "SPDXRef-Package-qtspeech-build-tool-Compiler-GNU-22748d1053d8"
+    },
+    {
+      "dependsOn": [
+        "SPDXRef-Package-qtspeech-22748d1053d8"
+      ],
+      "ref": "SPDXRef-Package-qtspeech-build-tool-Linker-GNU-22748d1053d8"
+    },
+    {
+      "dependsOn": [
+        "SPDXRef-Package-qtbase-qt-module-Core-ca2839a29ee1",
+        "SPDXRef-Package-qtbase-qt-module-PlatformModuleInternal-ca2839a29ee1",
+        "SPDXRef-Package-qtmultimedia-qt-module-Multimedia-7f6e1399b61d"
+      ],
+      "ref": "SPDXRef-Package-qtspeech-qt-module-TextToSpeech-22748d1053d8"
+    },
+    {
+      "dependsOn": [
+        "SPDXRef-Package-qtbase-qt-module-Core-ca2839a29ee1",
+        "SPDXRef-Package-qtbase-qt-module-PlatformPluginInternal-ca2839a29ee1",
+        "SPDXRef-Package-qtspeech-qt-module-TextToSpeech-22748d1053d8"
+      ],
+      "ref": "SPDXRef-Package-qtspeech-qt-plugin-QTextToSpeechMockPlugin-22748d1053d8"
+    },
+    {
+      "dependsOn": [
+        "SPDXRef-Package-qtbase-qt-module-Core-ca2839a29ee1",
+        "SPDXRef-Package-qtbase-qt-module-PlatformPluginInternal-ca2839a29ee1",
+        "SPDXRef-Package-qtspeech-qt-module-TextToSpeech-22748d1053d8",
+        "SPDXRef-Package-qtspeech-system-3rdparty-SpeechDispatcher-22748d1053d8"
+      ],
+      "ref": "SPDXRef-Package-qtspeech-qt-plugin-QTextToSpeechSpeechdPlugin-22748d1053d8"
+    },
+    {
+      "dependsOn": [
+        "SPDXRef-Package-qtbase-qt-module-PlatformPluginInternal-ca2839a29ee1",
+        "SPDXRef-Package-qtdeclarative-qt-module-Qml-a30c4980599d",
+        "SPDXRef-Package-qtspeech-qt-module-TextToSpeech-22748d1053d8"
+      ],
+      "ref": "SPDXRef-Package-qtspeech-qt-plugin-TextToSpeechQml-22748d1053d8"
+    },
+    {
+      "ref": "SPDXRef-Package-qtspeech-system-3rdparty-SpeechDispatcher-22748d1053d8"
+    }
+  ],
+  "metadata": {
+    "authors": [
+      {
+        "name": "TheQtCompany"
+      }
+    ],
+    "component": {
+      "bom-ref": "SPDXRef-Package-qtspeech-22748d1053d8",
+      "description": "Built by CMake 3.30.5 with RelWithDebInfo configuration for Linux (x86_64)\nqtspeech was configured with:\n    qt-configure-module <sources>/qtspeech -- -DFFMPEG_DIR=/usr/local/FFmpeg-n7.1.3 -DQT_DEPLOY_FFMPEG=TRUE -DINPUT_headersclean=ON -DCMAKE_MAKE_PROGRAM=/opt/ninja-1.12.1-linux-x64/ninja -DQT_INSTALL_CONFIG_INFO_FILES=ON -DQT_GENERATE_SBOM=ON -DQT_GENERATE_SOURCE_SBOM=ON -DQT_SBOM_VERIFY_SPDX_V2=ON -DQT_SBOM_REQUIRE_GENERATE_SPDX_V2_JSON=ON -DQT_SBOM_REQUIRE_VERIFY_SPDX_V2=ON -DQT_SBOM_VERIFY_CYDX_V1_6=ON -DQT_SBOM_REQUIRE_GENERATE_CYDX_V1_6=ON -DQT_SBOM_REQUIRE_VERIFY_CYDX_V1_6=ON -DQT_SBOM_PYTHON_INTERP=/usr/bin/python3 -DQT_SBOM_PYTHON_APPS_PATH=/usr/local/bin -DQT_LINT_SOURCE_SBOM=ON -DQT_INTERNAL_SBOM_DEFAULT_CHECKS=ON -DQT_INTERNAL_SBOM_AUDIT=ON -DQT_INTERNAL_SBOM_AUDIT_NO_ERROR=ON -DQT_BUILD_TESTS=OFF -DCMAKE_AUTOGEN_VERBOSE=ON -DCMAKE_MESSAGE_LOG_LEVEL=STATUS -DCMAKE_C_COMPILER_LAUNCHER=sccache -DCMAKE_CXX_COMPILER_LAUNCHER=sccache\n\n",
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "git://code.qt.io/qt/qtspeech.git"
+        }
+      ],
+      "manufacturer": {
+        "name": "TheQtCompany",
+        "url": [
+          "https://qt.io"
+        ]
+      },
+      "name": "qtspeech",
+      "supplier": {
+        "name": "TheQtCompany",
+        "url": [
+          "https://qt.io"
+        ]
+      },
+      "type": "framework",
+      "version": "6.11.1"
+    },
+    "lifecycles": [
+      {
+        "phase": "build"
+      }
+    ],
+    "manufacturer": {
+      "name": "TheQtCompany",
+      "url": [
+        "https://qt.io"
+      ]
+    },
+    "supplier": {
+      "name": "TheQtCompany",
+      "url": [
+        "https://qt.io"
+      ]
+    },
+    "timestamp": "2026-05-08T04:56:11+00:00",
+    "tools": {
+      "components": [
+        {
+          "description": "Build system tool used to build the project.",
+          "name": "cmake",
+          "type": "application",
+          "version": "3.30.5"
+        }
+      ]
+    }
+  },
+  "serialNumber": "urn:uuid:cc11815c-598e-562b-b5af-9e450c16bbec",
+  "version": 1,
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6"
+}

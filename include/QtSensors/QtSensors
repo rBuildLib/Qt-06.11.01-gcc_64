@@ -1,0 +1,26 @@
+#ifndef QT_QTSENSORS_MODULE_H
+#define QT_QTSENSORS_MODULE_H
+#include <QtSensors/QtSensorsDepends>
+#include <QtSensors/qsensorsglobal.h>
+#include <QtSensors/qaccelerometer.h>
+#include <QtSensors/qambientlightsensor.h>
+#include <QtSensors/qambienttemperaturesensor.h>
+#include <QtSensors/qcompass.h>
+#include <QtSensors/qgyroscope.h>
+#include <QtSensors/qhumiditysensor.h>
+#include <QtSensors/qirproximitysensor.h>
+#include <QtSensors/qlidsensor.h>
+#include <QtSensors/qlightsensor.h>
+#include <QtSensors/qmagnetometer.h>
+#include <QtSensors/qorientationsensor.h>
+#include <QtSensors/qpressuresensor.h>
+#include <QtSensors/qproximitysensor.h>
+#include <QtSensors/qrotationsensor.h>
+#include <QtSensors/qsensor.h>
+#include <QtSensors/qsensorbackend.h>
+#include <QtSensors/qsensormanager.h>
+#include <QtSensors/qsensorplugin.h>
+#include <QtSensors/qtapsensor.h>
+#include <QtSensors/qtiltsensor.h>
+#include <QtSensors/qtsensorsversion.h>
+#endif

@@ -1,0 +1,16 @@
+#ifndef QT_QTHTTPSERVER_MODULE_H
+#define QT_QTHTTPSERVER_MODULE_H
+#include <QtHttpServer/QtHttpServerDepends>
+#include <QtHttpServer/qthttpserverglobal.h>
+#include <QtHttpServer/qabstracthttpserver.h>
+#include <QtHttpServer/qhttpserver.h>
+#include <QtHttpServer/qhttpserverconfiguration.h>
+#include <QtHttpServer/qhttpserverrequest.h>
+#include <QtHttpServer/qhttpserverresponder.h>
+#include <QtHttpServer/qhttpserverresponse.h>
+#include <QtHttpServer/qhttpserverrouter.h>
+#include <QtHttpServer/qhttpserverrouterrule.h>
+#include <QtHttpServer/qhttpserverrouterviewtraits.h>
+#include <QtHttpServer/qhttpserverwebsocketupgraderesponse.h>
+#include <QtHttpServer/qthttpserverversion.h>
+#endif

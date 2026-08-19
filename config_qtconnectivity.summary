@@ -1,0 +1,25 @@
+
+Qt Connectivity:
+  Qt Bluetooth ........................... yes
+  Qt NFC ................................. yes
+Qt Bluetooth details:
+  BlueZ .................................. yes
+  BlueZ Low Energy ....................... yes
+  Linux Crypto API ....................... yes
+  WinRT Bluetooth API .................... no
+Qt Nfc details:
+  Use the PCSCLite library to access NFC devices  yes
+  Use neard to access NFC devices ........ no
+SBOM:
+  Generate SBOM .......................... yes
+  Generate SPDX v2.3 ..................... yes
+  Generate SPDX v2.3 JSON ................ yes
+  Verify   SPDX v2.3 JSON ................ yes
+  Generate CycloneDX v1.6 ................ yes
+  Verify   CycloneDX v1.6 ................ yes
+  SBOM Python interpreter ................ /usr/bin/python3.9 (version 3.9.25)
+  sbom2doc path .......................... /usr/local/bin/sbom2doc
+  sbomaudit path ......................... /usr/local/bin/sbomaudit
+  Generate source SPDX SBOM .............. yes
+  Verify   source SPDX SBOM .............. yes
+  reuse path ............................. /usr/local/bin/reuse

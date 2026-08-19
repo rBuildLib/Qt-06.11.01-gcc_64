@@ -1,0 +1,1860 @@
+SPDXVersion: SPDX-2.1
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: qtwebsockets
+DocumentNamespace: http://spdx.org/spdxdocs/spdx-v2.1-95dde865-9865-4632-b4c1-cf9a56971624
+Creator: Person: Anonymous ()
+Creator: Organization: TheQtCompany (https://qt.io)
+Creator: Tool: reuse-5.1.1
+Created: 2026-05-08T01:36:40Z
+CreatorComment: <text>This document was created automatically using available reuse information consistent with REUSE.</text>
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-9a6989ccb86b9f1209490dc7a4c43a56
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-688e3e26d0b04674c2a6d6b4388b7a15
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-16012e734408f6cbac20b63456f9a1c7
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-23b98c6db87d22d9ed6d360a6955b583
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-e27b6b2bfc2113a0b1af97bcb7132d84
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-a5da623a95d072155bfa30112abc451b
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-9adbe9c47c12509f2e49f9cc92228504
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-db6fa8ed24622d95ce965d16541f9b13
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-92e5ebac487b09ba42ad53424dae2577
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-1cc3c14cb93a5b9638823129145a58bc
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-7a2047429552ab2e0102e00cac0c9d7c
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-f168adb36dea3af904c95d9fe6fdc4b3
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-b4d8777400974fc0b27037a61c9ffa6e
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-8af3475f07c5e82fdf9b48953f0dd541
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-00038f9b6f682ad52e25c3e8915845af
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-77d7b530b8b7f7a3d6f2f03425d5d527
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-2edd6157e8cf9875745cc00e7e140b8e
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fc30187caec7cf0076aa20bd33ff8466
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-114533447bb61f1af874f92f367a1436
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-71a31f16e3f37212f18ce26737863fe1
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-2a08fd8f4de284e366000d5179716f3e
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-5ef292dbc57e48d6d1501deb07b44c05
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-ac233d4666d96150c46e87b55765e08f
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-0f06ccb60914f3e5442f61eca9a18547
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-bfcfcc9de022481f3749dd1269e5f85d
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-52c76190082d94ddbc4a03eb4be86053
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-c5d689699e5311925420ad8bbcf9b930
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-77abf0a77a4f1a7520e59c2018c72381
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-59d48f41cd34a539592f981ef2a77946
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-4780f648e74bd10987d1861a31ea1a39
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-4e4c930d6270f9891a9b291f83010aad
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-20be43ad43d254a63c8c185438cff4d3
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-25de803fdec0dc3bdc164b564e2ba0b9
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-8635b5103fe7e4a1d500ba4365a6c1d4
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-2c36c5184117eb025f8612e5e6a1ac16
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-6d5ab89891164508f39a3cab91850afe
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-968a3dd80be662d1aaf56a9411cb07ba
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-a8ed8f85d8c66290282f36e2293bc6f9
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-c9b53fb90070bb29655711ed631866de
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-8a0c9b5b562364bf4d1a78f61e49933d
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-c400b2670c3face781a4b51b2a86b946
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-c1f1a4b2fc354c7fc2d13c6e1d3af02c
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-24a2d9b5f62b259e778fd95954f0d407
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-f888ab9997bf2cd96eee6d527139eb7f
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-f7bf08e5c9d2dec776287521213f3c60
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fd15189c9e5bba1e65c9409b05a7d69e
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-42e4abd25717dcb72d3047249cb770e3
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-faafc6e498dfed2c4c734989fec6aaa2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-7aef13dab8b26419600cb25062bf54b4
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-c62dcbf01fde4cded7dee15d4776764b
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-f855889d42aa259409cc0326a8020130
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-00e147dec5a7d6fa6ef602fe0db6f0e2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-ec8e11114cf5e2dfca44b774fb5edd6d
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-1c6aa7da5ebffc74761c008d2debbe19
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-33f536302e32aae8ba974f3c9987bae3
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-52a0cfc9c296c8d1f923f3e8c5f5fcac
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-5b35c5b445b36b218bdb66007a958a81
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-85047384e96d8055345e29bfd281792a
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-d268a3e1e8ad82aa9974bf54ffb0d56f
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-78906f699846b4a60a7bcd99e36f7ab9
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-65837b9c7ef4e0fc429823a6b3b41419
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-c723df58d5b404e0afdacd651d556845
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-2d019ecf54eb2e713531167a40dc0d31
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-d48012f1896aa2757cc980fb54777184
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-688779ed1603b36f8e2fe0c58de35dd7
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-3a21592ce8e095695224e84f3b5d8189
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-cc68037ff8bda441785bf79e1f80b524
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-438530f3db208cf5f7fb3af0f6580728
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-5fb9d7274a000dccb1a7186821892dfb
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-29dd1faa3f8d2db2ff5559e2cc857508
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-c3f73793e5a2932ba9f561b7776e0da3
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-abd11bceaa28b34e752f2c16d9f8ed47
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-0f40912cebc629a0a99d7fd831b92434
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-f19bb4b16a4f83278812abad5230bc90
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-e62328043d4914166ad89350234252e2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-b03fdd4e0ae734c20f0f972847b3979c
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-5aba6aad757b0c198bdcdd9a69a3eae7
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-af881b339eb481e5e361e5dad16c2301
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-5d3e93ba2f8c180a87d389d6f32e94ef
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-9d477439e510d74d635c7858be0e635b
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-b1d20fca6fbf58457a225d1daa7ae255
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-3ad63cc857a870fca4b4717f1d6e158b
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-8ce627c2bbef67112f01434d6dae2297
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-8bb237134ca1b96c85bd57d59005c4a0
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-1d413cf48ecd3bdc6a6a6740050a89c7
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-349ae1b8399beeb0da86bbc569d0dd0c
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-2c73f9f4d599cd3ef4c0db0d989a901e
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-4054d2311d825112d9c1f7f95543ce25
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-695f352e1f20ae098efe2382669c523e
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-703cb671783c29eb24b000836889db8f
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-a4c44f7515962c8c71f0e73da73dded9
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-7e39fe971938519927068fdb00fba540
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fa1ce66b1233722eed43d695a55dcd52
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-5901fa6d5ad923c69ca995016454f69c
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-7f50519712302a652cdeb201fa6734bf
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-c101354e5337e60bc468a057d8650c47
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-5da4d3265b96341015a2e11a77081092
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-5f07a3ab54f1bc703a1d7ee7100d74b9
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-9c2af921092ffa2ac10ed855473c3854
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-f7364352ac6e63ae1d1e94f838985c98
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-6692249082b1ed21a5513a0429fa9bcb
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-9c65a7a9721577010f2120d02926d0e1
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fa5c92ee9cbaec28215471b633ee55d3
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-6625764f8891e39e7ee158c7498991e3
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-ca31cf52b7dfc8451fa8c7a2cf200ec2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-6775ca009185f5469640c260a0cdb87b
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-49493d1ac69d90def7d0d24e49072c73
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-b6057c56cca76dac51ed3fa070f90856
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-72594831a05fb8a7d0fb5029135963ff
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-621d31aa1d7573982e3273c834135b5d
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-579f09103845d4d2d5c747cae2b72359
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-687aecc03873b21b215da8e423497a6c
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-9f3b4330edbbdb3345c3b7b6ae92f04b
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-2171ca80c798899453f407af94e31ef2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-c49a281da0d3a3b56217529a1d9e5a15
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-610c954fd83b2d84299cef1f9b3e0426
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-54bfc245034f37122038847dbbd6d576
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-04569de3cedf96e5b7ac2a13effa5b2c
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-dbaac226ecc0e5b78c3e912a1528aeff
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-351de7c28a098b39ee25cf4ba279c3f5
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-82c32eec417ac2bcd210123121d3f4c6
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-5efe4e1e635d394c2841d4127811cce9
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-ee23bdba11c39be0c52a2af8d7377085
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-df5deea72b9c05c7de58a7b150580027
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-7b5ca5a5aa22e96be113c82f805f6b9f
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-0458940d58ec11a71c4309624300620e
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-76d1a1029a1e412e049aab3fc5f91212
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-17ebb73780aac4d586b21baf3664d05c
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-30218aa95b998a0f0a0b94a3915452e4
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-7fcfc2dfca6b866806755a590f715096
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-b620796d2d1d508d402fcee17d68b9df
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-e53e0b8bca49f0331a26063e8a8b905b
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-ac8bdddadcf9a4f1986370971a56fb02
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-44bf62cec9f5a3c5912f3b9f438b9644
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-e06bc0cc04a033e66ca27e7b573e868e
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-38d321d31799bb54df33f875abc05e29
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-150eb6a9a16fb9edbdc7b7e1a72d2a50
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-95da2efa2c79899e129fc756a0362af7
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-d5f87037e42731fe5fd0307109280a8d
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-8212e6b942e8d6f1b31c7e53c65b0e6b
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-e29523281b8f6d5e31648129042ee5fe
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-dd10162ac45edcc60f2cf51a1d78ee07
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-19fecb4afe6d0f5fd11339ab809b0ae5
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-cbe48eb7fbcfc067652a787b7004f509
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-932f63fff2b40b62a4582e8daded6cfe
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-c2df64eee5376912d355742e1d8e11de
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-bb405bf1627778482f7366407bbeefa3
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-ea126f5903f4ab2d4bd1c86511696ca5
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-7a3b900618e79c4431713eaf7dac884d
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fca337b83077d454ae8328e6e14429c2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-e816d9524f633bd7249a1801b1f6a956
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-e1f469ae99b71ddb5b942773122e9a2f
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-a4f7fe52de9331c6a105e3c85e5498e9
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-304ba40888746d949c2327d2ac3491ae
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-9c1d3328b9ccd65b35d719fcf5ff3a68
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-91e7e76343f62c0ab7904395067e451b
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-54a4f6ad99478af45f38e6c471b0c865
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-536fb3d3c0433ef0a8ac27d681c0f063
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-7176033d6440d2fa6064a2407d909331
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-36ae80dd528fae971ac482e74e9b92ea
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-67c0dbcedc6371fc29a43d5a92d464a1
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-4f0103d83e6a3080b310573fc35c6502
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-e689b979ec89cac601bc7b33eb8b0641
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-6003d4bab712e6a7ffc6ea68b1055f91
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-461f9b133080d8c62bc097daf9632b23
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-320964f0fa8d040dd59638ae43461aa9
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-c4dd7f784043a5cb1081e0aba6d11993
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-76a6a7a3e9d25ba6e22cfb2f967fd4f1
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-ffd05e5e72b1c42003f4ecd372ed8e11
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-a5082ed3d3d7b9c9a02a645f7e35c15a
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-0dd0c06aee19b4a1f872f02c705e88fd
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-cb874da5ccb9aabc0efb278fe7e1a09f
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-91f4229f453522297502fb9730f1ad09
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-a1a44fbdfb8ee0b0c6e815746a586ab7
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-94a0e3f08b069502a6c3f5c6918c4bf9
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-fa5f0150817b0090f94fcd1e19a57a9b
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-a791aec1ac28948606fd6d63d34d5d9e
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-bd0041f3140819bf6e7b663a2666bdc9
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-046ad02b2cbd8a715dffc426e463030f
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-26a225af2464c745d5601d017f2037c7
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-36be33e3afc06cffa47298b32de7de72
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-43cfa238858548fbb920df6d5b048ea7
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-234e4d43df301eba9eb6263a37896a67
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-93f24fb732897724ca67a6f0b9810a3d
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-a58a45d87786d1c7727ebdb6982d16c5
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-74060bf2871dab4985b96ab4b03cc547
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-9325d7cbb9533dd6069f33cbef19f208
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-cc9c6c343cb084227ac35a676b6ad8c9
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-ea0b5e22eeef24e465b469444918e38e
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-38eac2f8b92b1f9cb73471fef90fab2f
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-1718a3c30bc26fbd38a2aeda5fe27c15
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-4927dbdcb4984eb7e0efcf7e6012862f
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-6585e0d15317b38de95f96c49e90cf31
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-e8707e5ef01ff2fc46c2c75fba7100c8
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-a26f70967b61150ca763e9b7d6aa85b2
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-27b99839f46242c8ea24d798487f8a34
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-11ff2b1759fb4c1b1e366c89d429d556
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-645b54966401478aaeb9ff97fa6a4650
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-45790c70d919c0955e20114266d84640
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-08cb0ded1b682b282c035296edab9ca1
+
+FileName: ./.cmake.conf
+SPDXID: SPDXRef-9a6989ccb86b9f1209490dc7a4c43a56
+FileChecksum: SHA1: b19bca1c29268b17bcb2be76605132661646f0d0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./.gitreview
+SPDXID: SPDXRef-688e3e26d0b04674c2a6d6b4388b7a15
+FileChecksum: SHA1: e7e08d6628be0f346a0e05125adab0e1d8e8f19d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./.tag
+SPDXID: SPDXRef-16012e734408f6cbac20b63456f9a1c7
+FileChecksum: SHA1: d932e9b04f7c0a402239d8c4607d8a796c56d50d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./CMakeLists.txt
+SPDXID: SPDXRef-23b98c6db87d22d9ed6d360a6955b583
+FileChecksum: SHA1: bc171cac292fc067783f754e72383f46ebf29650
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (C) 2022 The Qt Company Ltd.</text>
+
+FileName: ./README.md
+SPDXID: SPDXRef-e27b6b2bfc2113a0b1af97bcb7132d84
+FileChecksum: SHA1: c76dbf9e4c9dbd061614e983b2b4b16bdf221028
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GFDL-1.3-no-invariants-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./coin/axivion/ci_config_linux.json
+SPDXID: SPDXRef-a5da623a95d072155bfa30112abc451b
+FileChecksum: SHA1: 702c38bb2e19dc0f4a22e8e446388a649ba23664
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./coin/module_config.yaml
+SPDXID: SPDXRef-9adbe9c47c12509f2e49f9cc92228504
+FileChecksum: SHA1: c9bf75181214afee55a94b21315479b3cd6a12f0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./dependencies.yaml
+SPDXID: SPDXRef-db6fa8ed24622d95ce965d16541f9b13
+FileChecksum: SHA1: 7aaec84990c5d387fbcce4e5825702d26b4ef228
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./dist/changes-5.10.0
+SPDXID: SPDXRef-92e5ebac487b09ba42ad53424dae2577
+FileChecksum: SHA1: 2a464b41dab5bf584200665fdcb941940b6a80bc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GFDL-1.3-no-invariants-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./dist/changes-5.10.1
+SPDXID: SPDXRef-1cc3c14cb93a5b9638823129145a58bc
+FileChecksum: SHA1: 6846392948bf5a52599057b29e2d40a1ca98a5fc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GFDL-1.3-no-invariants-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./dist/changes-5.11.0
+SPDXID: SPDXRef-7a2047429552ab2e0102e00cac0c9d7c
+FileChecksum: SHA1: 13ef6a9a09b270065d0bb38c64f561425818209e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GFDL-1.3-no-invariants-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./dist/changes-5.11.1
+SPDXID: SPDXRef-f168adb36dea3af904c95d9fe6fdc4b3
+FileChecksum: SHA1: 1f67f195d530553b8e43711770a0f8ddb0ef9cd5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GFDL-1.3-no-invariants-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./dist/changes-5.11.2
+SPDXID: SPDXRef-b4d8777400974fc0b27037a61c9ffa6e
+FileChecksum: SHA1: be235d3b579ee92160b1718f8a3e52d4bd273ba4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GFDL-1.3-no-invariants-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./dist/changes-5.11.3
+SPDXID: SPDXRef-8af3475f07c5e82fdf9b48953f0dd541
+FileChecksum: SHA1: 166a61686a341c1a2e9454a645d1a80ebab1a297
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GFDL-1.3-no-invariants-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./dist/changes-5.12.0
+SPDXID: SPDXRef-00038f9b6f682ad52e25c3e8915845af
+FileChecksum: SHA1: 5e6d1e5f8bbd86f9b5c926526f27329dc8528fd1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GFDL-1.3-no-invariants-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./dist/changes-5.12.1
+SPDXID: SPDXRef-77d7b530b8b7f7a3d6f2f03425d5d527
+FileChecksum: SHA1: 2629f84aad7c509c99f8948d2ae638175673d172
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GFDL-1.3-no-invariants-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./dist/changes-5.12.2
+SPDXID: SPDXRef-2edd6157e8cf9875745cc00e7e140b8e
+FileChecksum: SHA1: 1c71104166238d70507ea5a03c812bcb36ac1ce0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GFDL-1.3-no-invariants-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./dist/changes-5.12.3
+SPDXID: SPDXRef-fc30187caec7cf0076aa20bd33ff8466
+FileChecksum: SHA1: 61de3e67d406a5dcb4d9b9f78c2988ce15b5857e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GFDL-1.3-no-invariants-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./dist/changes-5.12.4
+SPDXID: SPDXRef-114533447bb61f1af874f92f367a1436
+FileChecksum: SHA1: f01de55a0871bb78ba0c5362c5bf681fe327710f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GFDL-1.3-no-invariants-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./dist/changes-5.12.5
+SPDXID: SPDXRef-71a31f16e3f37212f18ce26737863fe1
+FileChecksum: SHA1: a7eb6bfb381ef8d6d07f5feaf9aa2e76659476a4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GFDL-1.3-no-invariants-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./dist/changes-5.13.0
+SPDXID: SPDXRef-2a08fd8f4de284e366000d5179716f3e
+FileChecksum: SHA1: 22667c4227878976a8c1d3f1ad5243b96b33b2c2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GFDL-1.3-no-invariants-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./dist/changes-5.13.1
+SPDXID: SPDXRef-5ef292dbc57e48d6d1501deb07b44c05
+FileChecksum: SHA1: e49368299b2201623805129bc953db290ea7e03b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GFDL-1.3-no-invariants-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./dist/changes-5.13.2
+SPDXID: SPDXRef-ac233d4666d96150c46e87b55765e08f
+FileChecksum: SHA1: a093ac3e42be5b5063566fae42d603ea9b9d0fea
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GFDL-1.3-no-invariants-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./dist/changes-5.14.0
+SPDXID: SPDXRef-0f06ccb60914f3e5442f61eca9a18547
+FileChecksum: SHA1: ebd7c1be9b4b68530e493e41c0c754d4ed5e009f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GFDL-1.3-no-invariants-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./dist/changes-5.14.1
+SPDXID: SPDXRef-bfcfcc9de022481f3749dd1269e5f85d
+FileChecksum: SHA1: e9b4774bfda3af2359fc5039d70ce7817ba5fd4b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GFDL-1.3-no-invariants-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./dist/changes-5.14.2
+SPDXID: SPDXRef-52c76190082d94ddbc4a03eb4be86053
+FileChecksum: SHA1: 48527a4ededdbbb93dabc8d74aa67286e90f6729
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GFDL-1.3-no-invariants-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./dist/changes-5.15.0
+SPDXID: SPDXRef-c5d689699e5311925420ad8bbcf9b930
+FileChecksum: SHA1: 4cd9a37f3effabc61fc7bace5ba38a774800cfa0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GFDL-1.3-no-invariants-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./dist/changes-5.15.1
+SPDXID: SPDXRef-77abf0a77a4f1a7520e59c2018c72381
+FileChecksum: SHA1: 84023e09cf1e4ec52af5d7f17fac2cf62a400a02
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GFDL-1.3-no-invariants-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./dist/changes-5.15.2
+SPDXID: SPDXRef-59d48f41cd34a539592f981ef2a77946
+FileChecksum: SHA1: ea94815465c2937dc99296ef16d2670f0fc29d75
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GFDL-1.3-no-invariants-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./dist/changes-5.5.0
+SPDXID: SPDXRef-4780f648e74bd10987d1861a31ea1a39
+FileChecksum: SHA1: e78de8c9b5b93d553317d21dbc42ff0d4c3b85a8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GFDL-1.3-no-invariants-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./dist/changes-5.6.3
+SPDXID: SPDXRef-4e4c930d6270f9891a9b291f83010aad
+FileChecksum: SHA1: b71343370b10119c6376802683823214e07f7644
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GFDL-1.3-no-invariants-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./dist/changes-5.7.0
+SPDXID: SPDXRef-20be43ad43d254a63c8c185438cff4d3
+FileChecksum: SHA1: cd156f9194a49596709a4cb03bd5566b92fa0107
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GFDL-1.3-no-invariants-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./dist/changes-5.8.0
+SPDXID: SPDXRef-25de803fdec0dc3bdc164b564e2ba0b9
+FileChecksum: SHA1: fc64949c138744ca23b160d05369f9e449faf006
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GFDL-1.3-no-invariants-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./dist/changes-5.9.0
+SPDXID: SPDXRef-8635b5103fe7e4a1d500ba4365a6c1d4
+FileChecksum: SHA1: 72d09e7a04440e2a748328efdba464f3a6ffe5b9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GFDL-1.3-no-invariants-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./dist/changes-5.9.1
+SPDXID: SPDXRef-2c36c5184117eb025f8612e5e6a1ac16
+FileChecksum: SHA1: 95863c05f2506db61d637fcf698cf82dfc8fe048
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GFDL-1.3-no-invariants-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./dist/changes-5.9.2
+SPDXID: SPDXRef-6d5ab89891164508f39a3cab91850afe
+FileChecksum: SHA1: c4be3011a7773ba557db9f541a0fc64ebab9c606
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GFDL-1.3-no-invariants-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./dist/changes-5.9.3
+SPDXID: SPDXRef-968a3dd80be662d1aaf56a9411cb07ba
+FileChecksum: SHA1: 4ddaf9f547298ea4c4051ceca5c8b0c2ccbb60d7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GFDL-1.3-no-invariants-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./dist/changes-5.9.4
+SPDXID: SPDXRef-a8ed8f85d8c66290282f36e2293bc6f9
+FileChecksum: SHA1: 2a04d86bc3d1d5545878b3abd32d10abbcfe982f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GFDL-1.3-no-invariants-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./dist/changes-5.9.5
+SPDXID: SPDXRef-c9b53fb90070bb29655711ed631866de
+FileChecksum: SHA1: 81feed25f5ba2bb545999cf48f332ed1360dd677
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GFDL-1.3-no-invariants-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./dist/changes-5.9.6
+SPDXID: SPDXRef-8a0c9b5b562364bf4d1a78f61e49933d
+FileChecksum: SHA1: 91cbd7e3e27e8a71b7ce12e6d7998cb02f317fae
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GFDL-1.3-no-invariants-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./examples/CMakeLists.txt
+SPDXID: SPDXRef-c400b2670c3face781a4b51b2a86b946
+FileChecksum: SHA1: 1b4155835fb848b735ae70a98405e5bd768215fb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2022 The Qt Company Ltd.</text>
+
+FileName: ./examples/examples.pro
+SPDXID: SPDXRef-c1f1a4b2fc354c7fc2d13c6e1d3af02c
+FileChecksum: SHA1: a44e34e0d19689192c0209002b14e4c4ae0dadd9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./examples/websockets/CMakeLists.txt
+SPDXID: SPDXRef-24a2d9b5f62b259e778fd95954f0d407
+FileChecksum: SHA1: 4906d4a68f35fe2e60bc942d18b3c9f86c0b9a2b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2022 The Qt Company Ltd.</text>
+
+FileName: ./examples/websockets/doc/echoclient.qdoc
+SPDXID: SPDXRef-f888ab9997bf2cd96eee6d527139eb7f
+FileChecksum: SHA1: 7375b8c24f475c65286b5d09b0b37cb97a1e66ee
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GFDL-1.3-no-invariants-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2016 The Qt Company Ltd.</text>
+
+FileName: ./examples/websockets/doc/echoserver.qdoc
+SPDXID: SPDXRef-f7bf08e5c9d2dec776287521213f3c60
+FileChecksum: SHA1: c589db7173d7fb9cac5904ad840e71be2d3ffc55
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GFDL-1.3-no-invariants-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2016 The Qt Company Ltd.</text>
+
+FileName: ./examples/websockets/doc/examples.qdoc
+SPDXID: SPDXRef-fd15189c9e5bba1e65c9409b05a7d69e
+FileChecksum: SHA1: 36f0a28754a650f93de3c4fe3e6392d45c5f3b58
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GFDL-1.3-no-invariants-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2016 The Qt Company Ltd.</text>
+
+FileName: ./examples/websockets/doc/images/echoclient-console-example.webp
+SPDXID: SPDXRef-42e4abd25717dcb72d3047249cb770e3
+FileChecksum: SHA1: e16eb11548cdcbb4d7387c56752926ddef28414f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GFDL-1.3-no-invariants-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./examples/websockets/doc/images/echoclient-html-example.png
+SPDXID: SPDXRef-faafc6e498dfed2c4c734989fec6aaa2
+FileChecksum: SHA1: f3b37d651c04abd6cd763195e9fc685b8f3405c0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GFDL-1.3-no-invariants-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./examples/websockets/doc/images/qmlwebsocketclient-example.webp
+SPDXID: SPDXRef-7aef13dab8b26419600cb25062bf54b4
+FileChecksum: SHA1: 333229a1ccb2fa3df3bfb3be2ca8aacb4ef150b0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GFDL-1.3-no-invariants-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./examples/websockets/doc/images/qmlwebsocketserver-example.webp
+SPDXID: SPDXRef-c62dcbf01fde4cded7dee15d4776764b
+FileChecksum: SHA1: b0410612c083efe0c5183e6c1a85708cda76ca2f
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GFDL-1.3-no-invariants-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./examples/websockets/doc/images/simplechat-html-example.webp
+SPDXID: SPDXRef-f855889d42aa259409cc0326a8020130
+FileChecksum: SHA1: 9319fcb94354fde9dfc03fab35f6422efd036cd7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GFDL-1.3-no-invariants-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./examples/websockets/doc/images/sslechoclient-console-example.webp
+SPDXID: SPDXRef-00e147dec5a7d6fa6ef602fe0db6f0e2
+FileChecksum: SHA1: 63e0222e064531865202759c68e72d1ae1474769
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GFDL-1.3-no-invariants-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./examples/websockets/doc/images/sslechoclient-html-example.webp
+SPDXID: SPDXRef-ec8e11114cf5e2dfca44b774fb5edd6d
+FileChecksum: SHA1: c892be87b80ef4c17f896fb1eb29f53705fc0340
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GFDL-1.3-no-invariants-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./examples/websockets/doc/qmlwebsocketclient.qdoc
+SPDXID: SPDXRef-1c6aa7da5ebffc74761c008d2debbe19
+FileChecksum: SHA1: dc70acfd6a2ff315d86a98fc7acab41f654d927d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GFDL-1.3-no-invariants-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2016 The Qt Company Ltd.</text>
+
+FileName: ./examples/websockets/doc/qmlwebsocketserver.qdoc
+SPDXID: SPDXRef-33f536302e32aae8ba974f3c9987bae3
+FileChecksum: SHA1: c01d55e7e81f4213f3d70f97a771d006aea6eb86
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GFDL-1.3-no-invariants-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2016 Klarälvdalens Datakonsult AB, a KDAB Group company, info@kdab.com, author Milian Wolff <milian.wolff@kdab.com></text>
+
+FileName: ./examples/websockets/doc/simplechat.qdoc
+SPDXID: SPDXRef-52a0cfc9c296c8d1f923f3e8c5f5fcac
+FileChecksum: SHA1: 8cadd22becc39487f9438309ec0861f339d9be17
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GFDL-1.3-no-invariants-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2016 The Qt Company Ltd.</text>
+
+FileName: ./examples/websockets/doc/sslechoclient.qdoc
+SPDXID: SPDXRef-5b35c5b445b36b218bdb66007a958a81
+FileChecksum: SHA1: 2dba1bfc2593bb7c89a5ef8f4431372c25c62f2d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GFDL-1.3-no-invariants-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2016 The Qt Company Ltd.</text>
+
+FileName: ./examples/websockets/doc/sslechoserver.qdoc
+SPDXID: SPDXRef-85047384e96d8055345e29bfd281792a
+FileChecksum: SHA1: 420690643d8151dc888d437a029afd3f1cd4b230
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GFDL-1.3-no-invariants-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2016 The Qt Company Ltd.</text>
+
+FileName: ./examples/websockets/echoclient/CMakeLists.txt
+SPDXID: SPDXRef-d268a3e1e8ad82aa9974bf54ffb0d56f
+FileChecksum: SHA1: a3a2f16533880e10e531a5aca76d758df4cc69d1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2022 The Qt Company Ltd.</text>
+
+FileName: ./examples/websockets/echoclient/echoclient.cpp
+SPDXID: SPDXRef-78906f699846b4a60a7bcd99e36f7ab9
+FileChecksum: SHA1: d56bcb42a14276b3ffcdf0765e899bdbee0807ae
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2016 Kurt Pattyn <pattyn.kurt@gmail.com>.</text>
+
+FileName: ./examples/websockets/echoclient/echoclient.h
+SPDXID: SPDXRef-65837b9c7ef4e0fc429823a6b3b41419
+FileChecksum: SHA1: e2e527a73f7bb393d49d2c9e008ff72851cce2a9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2016 Kurt Pattyn <pattyn.kurt@gmail.com>.</text>
+
+FileName: ./examples/websockets/echoclient/echoclient.pro
+SPDXID: SPDXRef-c723df58d5b404e0afdacd651d556845
+FileChecksum: SHA1: 2424c008371df5dff643c85555600b936fd0d8e7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./examples/websockets/echoclient/main.cpp
+SPDXID: SPDXRef-2d019ecf54eb2e713531167a40dc0d31
+FileChecksum: SHA1: 0a0ba1599d74e6bf87572ef32d3d42e32d410040
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2016 Kurt Pattyn <pattyn.kurt@gmail.com>.</text>
+
+FileName: ./examples/websockets/echoserver/CMakeLists.txt
+SPDXID: SPDXRef-d48012f1896aa2757cc980fb54777184
+FileChecksum: SHA1: 95f15003994812991f5e51e0d2ab45a3386bf073
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2022 The Qt Company Ltd.</text>
+
+FileName: ./examples/websockets/echoserver/echoclient.html
+SPDXID: SPDXRef-688779ed1603b36f8e2fe0c58de35dd7
+FileChecksum: SHA1: e3b3d27e9dffdc53f64ce117b3d9a9de350b6110
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./examples/websockets/echoserver/echoserver.cpp
+SPDXID: SPDXRef-3a21592ce8e095695224e84f3b5d8189
+FileChecksum: SHA1: 0c211727ef675a5a2edbf1e9701525a77cfbeb6a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2016 Kurt Pattyn <pattyn.kurt@gmail.com>.</text>
+
+FileName: ./examples/websockets/echoserver/echoserver.h
+SPDXID: SPDXRef-cc68037ff8bda441785bf79e1f80b524
+FileChecksum: SHA1: 39e436d4bc68a7cb6580b8b8d17e9def95deb8d2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2016 Kurt Pattyn <pattyn.kurt@gmail.com>.</text>
+
+FileName: ./examples/websockets/echoserver/echoserver.pro
+SPDXID: SPDXRef-438530f3db208cf5f7fb3af0f6580728
+FileChecksum: SHA1: ecbdc647b9472fc7f736846d3812f61bd41ed8c0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./examples/websockets/echoserver/main.cpp
+SPDXID: SPDXRef-5fb9d7274a000dccb1a7186821892dfb
+FileChecksum: SHA1: d8efb5ee5563b69e5847df08efa1fe3dbace6e9c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2016 Kurt Pattyn <pattyn.kurt@gmail.com>.</text>
+
+FileName: ./examples/websockets/qmlwebsocketclient/CMakeLists.txt
+SPDXID: SPDXRef-29dd1faa3f8d2db2ff5559e2cc857508
+FileChecksum: SHA1: e72b93e87c290b2e2c53d1e0eda1886f68e52d72
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2022 The Qt Company Ltd.</text>
+
+FileName: ./examples/websockets/qmlwebsocketclient/data.qrc
+SPDXID: SPDXRef-c3f73793e5a2932ba9f561b7776e0da3
+FileChecksum: SHA1: f0f5d30163f1a558a0d5a18bcd3cb2e7cf1f835e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./examples/websockets/qmlwebsocketclient/main.cpp
+SPDXID: SPDXRef-abd11bceaa28b34e752f2c16d9f8ed47
+FileChecksum: SHA1: 4533c76691456f081d7695efc0304cb5fb55bfe0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2016 Kurt Pattyn <pattyn.kurt@gmail.com>.</text>
+
+FileName: ./examples/websockets/qmlwebsocketclient/qml/qmlwebsocketclient/main.qml
+SPDXID: SPDXRef-0f40912cebc629a0a99d7fd831b92434
+FileChecksum: SHA1: e8b07bc8eaa819002e8f50c90f7837bf6f5121e2
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2016 Kurt Pattyn <pattyn.kurt@gmail.com>.</text>
+
+FileName: ./examples/websockets/qmlwebsocketclient/qmlwebsocketclient.pro
+SPDXID: SPDXRef-f19bb4b16a4f83278812abad5230bc90
+FileChecksum: SHA1: e8e7affbcf849f07e1c31599f00edf64099b7a44
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./examples/websockets/qmlwebsocketserver/CMakeLists.txt
+SPDXID: SPDXRef-e62328043d4914166ad89350234252e2
+FileChecksum: SHA1: e47a9f528dabf818f7cadbf0e121780c27c7c5e5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2022 The Qt Company Ltd.</text>
+
+FileName: ./examples/websockets/qmlwebsocketserver/data.qrc
+SPDXID: SPDXRef-b03fdd4e0ae734c20f0f972847b3979c
+FileChecksum: SHA1: bcadc4f886f063bb972be2a9ab1f9c50b29f9efb
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./examples/websockets/qmlwebsocketserver/main.cpp
+SPDXID: SPDXRef-5aba6aad757b0c198bdcdd9a69a3eae7
+FileChecksum: SHA1: 696d4184265f55cda86af6cf236f6065ca4cf973
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2016 Klarälvdalens Datakonsult AB, a KDAB Group company, info@kdab.com, author Milian Wolff <milian.wolff@kdab.com></text>
+
+FileName: ./examples/websockets/qmlwebsocketserver/qml/qmlwebsocketserver/main.qml
+SPDXID: SPDXRef-af881b339eb481e5e361e5dad16c2301
+FileChecksum: SHA1: f12ef1907900f8458a6d1b4a06ab52c04b855523
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2016 Klarälvdalens Datakonsult AB, a KDAB Group company, info@kdab.com, author Milian Wolff <milian.wolff@kdab.com></text>
+
+FileName: ./examples/websockets/qmlwebsocketserver/qmlwebsocketserver.pro
+SPDXID: SPDXRef-5d3e93ba2f8c180a87d389d6f32e94ef
+FileChecksum: SHA1: f6c68872466ca982e918190d5c7a9dd29f69b45a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./examples/websockets/simplechat/CMakeLists.txt
+SPDXID: SPDXRef-9d477439e510d74d635c7858be0e635b
+FileChecksum: SHA1: 171db7fa08bb32907b665df47e63fb5d3a64216d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2022 The Qt Company Ltd.</text>
+
+FileName: ./examples/websockets/simplechat/chatclient.html
+SPDXID: SPDXRef-b1d20fca6fbf58457a225d1daa7ae255
+FileChecksum: SHA1: 82fb690add7ac2d7d18cc7d399f0c02de7daf28d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./examples/websockets/simplechat/chatserver.cpp
+SPDXID: SPDXRef-3ad63cc857a870fca4b4717f1d6e158b
+FileChecksum: SHA1: 8cfb2606679d2a74c7d1071bef297971856157f8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2016 Kurt Pattyn <pattyn.kurt@gmail.com>.</text>
+
+FileName: ./examples/websockets/simplechat/chatserver.h
+SPDXID: SPDXRef-8ce627c2bbef67112f01434d6dae2297
+FileChecksum: SHA1: 5e7a0c2928c90163dd7bf5246d5c59276b8fd41c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2016 Kurt Pattyn <pattyn.kurt@gmail.com>.</text>
+
+FileName: ./examples/websockets/simplechat/main.cpp
+SPDXID: SPDXRef-8bb237134ca1b96c85bd57d59005c4a0
+FileChecksum: SHA1: 4e77d9e540ceaa76a1f9e5752cd027b5ef831a74
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2016 Kurt Pattyn <pattyn.kurt@gmail.com>.</text>
+
+FileName: ./examples/websockets/simplechat/simplechat.pro
+SPDXID: SPDXRef-1d413cf48ecd3bdc6a6a6740050a89c7
+FileChecksum: SHA1: 575483055fc8bc6219471504f1ea9c4190b4b6cf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./examples/websockets/sslechoclient/CMakeLists.txt
+SPDXID: SPDXRef-349ae1b8399beeb0da86bbc569d0dd0c
+FileChecksum: SHA1: 85b022669709550c4db84bdda93541e160461bd5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2022 The Qt Company Ltd.</text>
+
+FileName: ./examples/websockets/sslechoclient/main.cpp
+SPDXID: SPDXRef-2c73f9f4d599cd3ef4c0db0d989a901e
+FileChecksum: SHA1: 02323084b5d5222965e14baf09b236876be56def
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2016 Kurt Pattyn <pattyn.kurt@gmail.com>.</text>
+
+FileName: ./examples/websockets/sslechoclient/sslechoclient.cpp
+SPDXID: SPDXRef-4054d2311d825112d9c1f7f95543ce25
+FileChecksum: SHA1: 892ad7a7f3bcf606c2bd50c94f00fd5b6463635a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2016 Kurt Pattyn <pattyn.kurt@gmail.com>.</text>
+
+FileName: ./examples/websockets/sslechoclient/sslechoclient.h
+SPDXID: SPDXRef-695f352e1f20ae098efe2382669c523e
+FileChecksum: SHA1: 39cecfaeb5e14d0922efdf088a6c549c8b3d4f47
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2016 Kurt Pattyn <pattyn.kurt@gmail.com>.</text>
+
+FileName: ./examples/websockets/sslechoclient/sslechoclient.pro
+SPDXID: SPDXRef-703cb671783c29eb24b000836889db8f
+FileChecksum: SHA1: fe04ae9689e7202c5f066c2fdc6edffd56f17638
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./examples/websockets/sslechoserver/CMakeLists.txt
+SPDXID: SPDXRef-a4c44f7515962c8c71f0e73da73dded9
+FileChecksum: SHA1: 155ce571c6fb29485f35c3d29d0fba121739d575
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2022 The Qt Company Ltd.</text>
+
+FileName: ./examples/websockets/sslechoserver/generate.sh
+SPDXID: SPDXRef-7e39fe971938519927068fdb00fba540
+FileChecksum: SHA1: 7f0d39e023643231239ba4ea883ad9ba8c992f3e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2024 The Qt Company Ltd.</text>
+
+FileName: ./examples/websockets/sslechoserver/localhost.cert
+SPDXID: SPDXRef-fa1ce66b1233722eed43d695a55dcd52
+FileChecksum: SHA1: 69fc454c39c9f32ded601371cffb2b64f1cddd33
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./examples/websockets/sslechoserver/localhost.key
+SPDXID: SPDXRef-5901fa6d5ad923c69ca995016454f69c
+FileChecksum: SHA1: 8be3fcd225b76d7c4d6551c3d8d4f1276cd0d650
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./examples/websockets/sslechoserver/main.cpp
+SPDXID: SPDXRef-7f50519712302a652cdeb201fa6734bf
+FileChecksum: SHA1: fd61522b04fdb8e01ac685fba5dac66a8620da21
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2016 Kurt Pattyn <pattyn.kurt@gmail.com>.</text>
+
+FileName: ./examples/websockets/sslechoserver/securesocketclient.qrc
+SPDXID: SPDXRef-c101354e5337e60bc468a057d8650c47
+FileChecksum: SHA1: f1792393f98a70a305a7c2ad5445e1604b0bf8f7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./examples/websockets/sslechoserver/sslechoclient.html
+SPDXID: SPDXRef-5da4d3265b96341015a2e11a77081092
+FileChecksum: SHA1: caa9ba10240db4d0b40cc3663b60b380a134cbc9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./examples/websockets/sslechoserver/sslechoserver.cpp
+SPDXID: SPDXRef-5f07a3ab54f1bc703a1d7ee7100d74b9
+FileChecksum: SHA1: a2d407d3bfef5315fac9e4ef3f9a7176cdb9eae1
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2016 Kurt Pattyn <pattyn.kurt@gmail.com>.</text>
+
+FileName: ./examples/websockets/sslechoserver/sslechoserver.h
+SPDXID: SPDXRef-9c2af921092ffa2ac10ed855473c3854
+FileChecksum: SHA1: 763ff1ace5a87ca97c25b82b6ffc797388fcaa1d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2016 Kurt Pattyn <pattyn.kurt@gmail.com>.</text>
+
+FileName: ./examples/websockets/sslechoserver/sslechoserver.pro
+SPDXID: SPDXRef-f7364352ac6e63ae1d1e94f838985c98
+FileChecksum: SHA1: e025183e38ee38fcdc7ddd166a7cf3775e6b1e68
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./examples/websockets/websockets.pro
+SPDXID: SPDXRef-6692249082b1ed21a5513a0429fa9bcb
+FileChecksum: SHA1: 305fb396042f417a823954f82822b8ea531db857
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./licenseRule.json
+SPDXID: SPDXRef-9c65a7a9721577010f2120d02926d0e1
+FileChecksum: SHA1: 1aa3525ae4cea623405b57499da6226fb0177132
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./qt_cmdline.cmake
+SPDXID: SPDXRef-fa5c92ee9cbaec28215471b633ee55d3
+FileChecksum: SHA1: bd15ee374701dbb2bd8e55c5179ee11311b58704
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (C) 2026 The Qt Company Ltd.</text>
+
+FileName: ./qtwebsockets.pro
+SPDXID: SPDXRef-6625764f8891e39e7ee158c7498991e3
+FileChecksum: SHA1: 4263a3e0a40cabfd2627b90560bd72d53f3be974
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./src/CMakeLists.txt
+SPDXID: SPDXRef-ca31cf52b7dfc8451fa8c7a2cf200ec2
+FileChecksum: SHA1: 5fd040c94f6daf77c22433b2ae937e9bb85780af
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (C) 2022 The Qt Company Ltd.</text>
+
+FileName: ./src/imports/CMakeLists.txt
+SPDXID: SPDXRef-6775ca009185f5469640c260a0cdb87b
+FileChecksum: SHA1: 247c421401b6118c69312df1f77e2d370e0daf05
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (C) 2022 The Qt Company Ltd.</text>
+
+FileName: ./src/imports/qmlwebsockets/CMakeLists.txt
+SPDXID: SPDXRef-49493d1ac69d90def7d0d24e49072c73
+FileChecksum: SHA1: 31b9d777d9285c0df0fb31c4c0db65dfd0232492
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (C) 2022 The Qt Company Ltd.</text>
+
+FileName: ./src/imports/qmlwebsockets/qqmlwebsocket.cpp
+SPDXID: SPDXRef-b6057c56cca76dac51ed3fa070f90856
+FileChecksum: SHA1: 6ae3ef2f983a1b8057f1716dd8a08b0398217f75
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: LGPL-3.0-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2016 Kurt Pattyn <pattyn.kurt@gmail.com>.</text>
+
+FileName: ./src/imports/qmlwebsockets/qqmlwebsocket.h
+SPDXID: SPDXRef-72594831a05fb8a7d0fb5029135963ff
+FileChecksum: SHA1: 182599dccf58cfb4527a1580e83169f771386f87
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: LGPL-3.0-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2016 Kurt Pattyn <pattyn.kurt@gmail.com>.</text>
+
+FileName: ./src/imports/qmlwebsockets/qqmlwebsocketserver.cpp
+SPDXID: SPDXRef-621d31aa1d7573982e3273c834135b5d
+FileChecksum: SHA1: 2f636ab98e2aef2da8dd0807d0396e3e7483826e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: LGPL-3.0-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2016 Klarälvdalens Datakonsult AB, a KDAB Group company, info@kdab.com, author Milian Wolff <milian.wolff@kdab.com></text>
+
+FileName: ./src/imports/qmlwebsockets/qqmlwebsocketserver.h
+SPDXID: SPDXRef-579f09103845d4d2d5c747cae2b72359
+FileChecksum: SHA1: f52be903ebf7275c98604ad350f84d8808331b14
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: LGPL-3.0-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2016 Klarälvdalens Datakonsult AB, a KDAB Group company, info@kdab.com, author Milian Wolff <milian.wolff@kdab.com></text>
+
+FileName: ./src/websockets/CMakeLists.txt
+SPDXID: SPDXRef-687aecc03873b21b215da8e423497a6c
+FileChecksum: SHA1: 426820b18794d473ec67b5e329a6032bc29f7e04
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (C) 2022 The Qt Company Ltd.</text>
+
+FileName: ./src/websockets/configure.cmake
+SPDXID: SPDXRef-9f3b4330edbbdb3345c3b7b6ae92f04b
+FileChecksum: SHA1: 8683d3531d122bab20acefe781a4a98158ccc66c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (C) 2026 The Qt Company Ltd.</text>
+
+FileName: ./src/websockets/doc/images/websockets-pictorial-representation.jpg
+SPDXID: SPDXRef-2171ca80c798899453f407af94e31ef2
+FileChecksum: SHA1: bc1ff116329c61e46ab6cb06253df97a8954faf3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GFDL-1.3-no-invariants-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./src/websockets/doc/qtwebsockets.qdocconf
+SPDXID: SPDXRef-c49a281da0d3a3b56217529a1d9e5a15
+FileChecksum: SHA1: 2cbb2ce45f3be0a45c485d1b129b9df68e2ad05e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GFDL-1.3-no-invariants-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./src/websockets/doc/snippets/src_websockets_ssl_qwebsocket.cpp
+SPDXID: SPDXRef-610c954fd83b2d84299cef1f9b3e0426
+FileChecksum: SHA1: 2a003cb63d5f23716a84ef51084eced4a0f0f45b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2013 Kurt Pattyn <pattyn.kurt@gmail.com></text>
+
+FileName: ./src/websockets/doc/src/external-resources.qdoc
+SPDXID: SPDXRef-54bfc245034f37122038847dbbd6d576
+FileChecksum: SHA1: 5099c3c8042e556f2ce5875276510df3755f399d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GFDL-1.3-no-invariants-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2017 The Qt Company Ltd.</text>
+
+FileName: ./src/websockets/doc/src/index.qdoc
+SPDXID: SPDXRef-04569de3cedf96e5b7ac2a13effa5b2c
+FileChecksum: SHA1: 7a16e85ab958d9e56d3f604b93736d611d10800d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GFDL-1.3-no-invariants-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2013 Kurt Pattyn <pattyn.kurt@gmail.com></text>
+
+FileName: ./src/websockets/doc/src/overview.qdoc
+SPDXID: SPDXRef-dbaac226ecc0e5b78c3e912a1528aeff
+FileChecksum: SHA1: 40e7c30125bc31f3b93508511c5abb24bf4c765b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GFDL-1.3-no-invariants-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2017 The Qt Company Ltd.</text>
+
+FileName: ./src/websockets/doc/src/qt6-changes.qdoc
+SPDXID: SPDXRef-351de7c28a098b39ee25cf4ba279c3f5
+FileChecksum: SHA1: 4ccdcaceebd6cbbdd9ffb04ecb95ccbeb05d236a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GFDL-1.3-no-invariants-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2021 The Qt Company Ltd.</text>
+
+FileName: ./src/websockets/doc/src/qtwebsockets-module.qdoc
+SPDXID: SPDXRef-82c32eec417ac2bcd210123121d3f4c6
+FileChecksum: SHA1: 68ef3fb104bd3d96a85416c0ef48acef6c8d7118
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GFDL-1.3-no-invariants-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2013 Kurt Pattyn <pattyn.kurt@gmail.com></text>
+
+FileName: ./src/websockets/doc/src/qtwebsockets-toc.qdoc
+SPDXID: SPDXRef-5efe4e1e635d394c2841d4127811cce9
+FileChecksum: SHA1: 215f705999036b6ec3aaaf1c4f44b87ddfb11c22
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GFDL-1.3-no-invariants-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2024 The Qt Company Ltd.</text>
+
+FileName: ./src/websockets/qdefaultmaskgenerator_p.cpp
+SPDXID: SPDXRef-ee23bdba11c39be0c52a2af8d7377085
+FileChecksum: SHA1: ffa5780f5a6ca5c214955120f31232ebed798686
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: LGPL-3.0-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2016 Kurt Pattyn <pattyn.kurt@gmail.com>.</text>
+
+FileName: ./src/websockets/qdefaultmaskgenerator_p.h
+SPDXID: SPDXRef-df5deea72b9c05c7de58a7b150580027
+FileChecksum: SHA1: f4edda106d67705db8482c91502b7edbb3d4afb7
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: LGPL-3.0-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2016 Kurt Pattyn <pattyn.kurt@gmail.com>.</text>
+
+FileName: ./src/websockets/qmaskgenerator.cpp
+SPDXID: SPDXRef-7b5ca5a5aa22e96be113c82f805f6b9f
+FileChecksum: SHA1: 273a682db43ec99044e2de87040da89cdb81dc3a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: LGPL-3.0-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2016 Kurt Pattyn <pattyn.kurt@gmail.com>.</text>
+
+FileName: ./src/websockets/qmaskgenerator.h
+SPDXID: SPDXRef-0458940d58ec11a71c4309624300620e
+FileChecksum: SHA1: f33a3da02791228c50cf2ff0a2ed38e180f7bd85
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: LGPL-3.0-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2016 Kurt Pattyn <pattyn.kurt@gmail.com>.</text>
+
+FileName: ./src/websockets/qwebsocket.cpp
+SPDXID: SPDXRef-76d1a1029a1e412e049aab3fc5f91212
+FileChecksum: SHA1: 3b251bc806506d318426a0a1bc60b1fcacc255fd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: LGPL-3.0-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2016 Kurt Pattyn <pattyn.kurt@gmail.com>.</text>
+
+FileName: ./src/websockets/qwebsocket.h
+SPDXID: SPDXRef-17ebb73780aac4d586b21baf3664d05c
+FileChecksum: SHA1: 9d76d8d94f327a2c1ac04530ea5b6477752ae469
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: LGPL-3.0-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2016 Kurt Pattyn <pattyn.kurt@gmail.com>.</text>
+
+FileName: ./src/websockets/qwebsocket_p.cpp
+SPDXID: SPDXRef-30218aa95b998a0f0a0b94a3915452e4
+FileChecksum: SHA1: 3e4a669553eee8d8cf938b4a158d8c7365be1a30
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: LGPL-3.0-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2016 Kurt Pattyn <pattyn.kurt@gmail.com>.</text>
+
+FileName: ./src/websockets/qwebsocket_p.h
+SPDXID: SPDXRef-7fcfc2dfca6b866806755a590f715096
+FileChecksum: SHA1: 72920ce3994b09e4fb47c0411b8de3b331448f13
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: LGPL-3.0-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2016 Kurt Pattyn <pattyn.kurt@gmail.com>.</text>
+
+FileName: ./src/websockets/qwebsocket_wasm_p.cpp
+SPDXID: SPDXRef-b620796d2d1d508d402fcee17d68b9df
+FileChecksum: SHA1: b0b2807d8177d5698a50dbc8260328c8356a911a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: LGPL-3.0-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2018 The Qt Company Ltd.</text>
+
+FileName: ./src/websockets/qwebsocketcorsauthenticator.cpp
+SPDXID: SPDXRef-e53e0b8bca49f0331a26063e8a8b905b
+FileChecksum: SHA1: 082a23e50e631f4a8bc891a083ce521704100961
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: LGPL-3.0-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2016 Kurt Pattyn <pattyn.kurt@gmail.com>.</text>
+
+FileName: ./src/websockets/qwebsocketcorsauthenticator.h
+SPDXID: SPDXRef-ac8bdddadcf9a4f1986370971a56fb02
+FileChecksum: SHA1: fb382f7ee1a221c5fccc5b4920063050175024fa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: LGPL-3.0-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2016 Kurt Pattyn <pattyn.kurt@gmail.com>.</text>
+
+FileName: ./src/websockets/qwebsocketcorsauthenticator_p.h
+SPDXID: SPDXRef-44bf62cec9f5a3c5912f3b9f438b9644
+FileChecksum: SHA1: 17f23086b30e7ebabf5c5ec4e10df3efaf96acfc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: LGPL-3.0-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2016 Kurt Pattyn <pattyn.kurt@gmail.com>.</text>
+
+FileName: ./src/websockets/qwebsocketdataprocessor.cpp
+SPDXID: SPDXRef-e06bc0cc04a033e66ca27e7b573e868e
+FileChecksum: SHA1: 7dfc1336d66850cb4bb4fa0a2d29b860bc35f7a9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: LGPL-3.0-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2016 Kurt Pattyn <pattyn.kurt@gmail.com>.</text>
+
+FileName: ./src/websockets/qwebsocketdataprocessor_p.h
+SPDXID: SPDXRef-38d321d31799bb54df33f875abc05e29
+FileChecksum: SHA1: 362cdc2a422f15f8b25b3a3720ce1fc7c986f4c0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: LGPL-3.0-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2016 Kurt Pattyn <pattyn.kurt@gmail.com>.</text>
+
+FileName: ./src/websockets/qwebsocketframe.cpp
+SPDXID: SPDXRef-150eb6a9a16fb9edbdc7b7e1a72d2a50
+FileChecksum: SHA1: aaade167a4242471a420dda8d7e5680bdec42b41
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: LGPL-3.0-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2016 Kurt Pattyn <pattyn.kurt@gmail.com>.</text>
+
+FileName: ./src/websockets/qwebsocketframe_p.h
+SPDXID: SPDXRef-95da2efa2c79899e129fc756a0362af7
+FileChecksum: SHA1: 2b0c3c5fb92987103f42392119c4a7521178d147
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: LGPL-3.0-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2016 Kurt Pattyn <pattyn.kurt@gmail.com>.</text>
+
+FileName: ./src/websockets/qwebsockethandshakeoptions.cpp
+SPDXID: SPDXRef-d5f87037e42731fe5fd0307109280a8d
+FileChecksum: SHA1: a546b8902bff39e6a5fd2ba98c3bb478ac0037a5
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: LGPL-3.0-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2022 Menlo Systems GmbH, author Arno Rehn <a.rehn@menlosystems.com>.</text>
+
+FileName: ./src/websockets/qwebsockethandshakeoptions.h
+SPDXID: SPDXRef-8212e6b942e8d6f1b31c7e53c65b0e6b
+FileChecksum: SHA1: 99f20abb40a9d7ab2e2bca09d594cdfbc074f0c0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: LGPL-3.0-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2022 Menlo Systems GmbH, author Arno Rehn <a.rehn@menlosystems.com>.</text>
+
+FileName: ./src/websockets/qwebsockethandshakeoptions_p.h
+SPDXID: SPDXRef-e29523281b8f6d5e31648129042ee5fe
+FileChecksum: SHA1: 2f38e3781c64f0959fedc7f04ae6f748e0563818
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: LGPL-3.0-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2022 Menlo Systems GmbH, author Arno Rehn <a.rehn@menlosystems.com>.</text>
+
+FileName: ./src/websockets/qwebsockethandshakerequest.cpp
+SPDXID: SPDXRef-dd10162ac45edcc60f2cf51a1d78ee07
+FileChecksum: SHA1: 33fd213da4115ca042d2099eba45768fd1ef58bf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: LGPL-3.0-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2016 Kurt Pattyn <pattyn.kurt@gmail.com>.</text>
+
+FileName: ./src/websockets/qwebsockethandshakerequest_p.h
+SPDXID: SPDXRef-19fecb4afe6d0f5fd11339ab809b0ae5
+FileChecksum: SHA1: e8e7f415a1031c27cc9fa7df431c2c1ca9691561
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: LGPL-3.0-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2016 Kurt Pattyn <pattyn.kurt@gmail.com>.</text>
+
+FileName: ./src/websockets/qwebsockethandshakeresponse.cpp
+SPDXID: SPDXRef-cbe48eb7fbcfc067652a787b7004f509
+FileChecksum: SHA1: 033534c93aade95357eda29e5af41e31fb1ceb80
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: LGPL-3.0-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2016 Kurt Pattyn <pattyn.kurt@gmail.com>.</text>
+
+FileName: ./src/websockets/qwebsockethandshakeresponse_p.h
+SPDXID: SPDXRef-932f63fff2b40b62a4582e8daded6cfe
+FileChecksum: SHA1: 84df5ef450ed8ae80d56e1feeebba207098e284e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: LGPL-3.0-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2016 Kurt Pattyn <pattyn.kurt@gmail.com>.</text>
+
+FileName: ./src/websockets/qwebsocketprotocol.cpp
+SPDXID: SPDXRef-c2df64eee5376912d355742e1d8e11de
+FileChecksum: SHA1: 7574b36d02547c05166ba494abef13973a72ee86
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: LGPL-3.0-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2016 Kurt Pattyn <pattyn.kurt@gmail.com>.</text>
+
+FileName: ./src/websockets/qwebsocketprotocol.h
+SPDXID: SPDXRef-bb405bf1627778482f7366407bbeefa3
+FileChecksum: SHA1: 91e89828b14487fcb3fe2c4551d5c6a9edd11629
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: LGPL-3.0-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2016 Kurt Pattyn <pattyn.kurt@gmail.com>.</text>
+
+FileName: ./src/websockets/qwebsocketprotocol_p.h
+SPDXID: SPDXRef-ea126f5903f4ab2d4bd1c86511696ca5
+FileChecksum: SHA1: 0f12d8720d7c3a0beb4db328826a6bba64847203
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: LGPL-3.0-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2016 Kurt Pattyn <pattyn.kurt@gmail.com>.</text>
+
+FileName: ./src/websockets/qwebsockets_global.h
+SPDXID: SPDXRef-7a3b900618e79c4431713eaf7dac884d
+FileChecksum: SHA1: b7a24a2ecb7607b0bdfccd029b9bd01bd9d7eaad
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: LGPL-3.0-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2016 Kurt Pattyn <pattyn.kurt@gmail.com>.</text>
+
+FileName: ./src/websockets/qwebsocketserver.cpp
+SPDXID: SPDXRef-fca337b83077d454ae8328e6e14429c2
+FileChecksum: SHA1: 5a2a9b3ca736aa7e1f6f23723fd130ecc858d091
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: LGPL-3.0-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2016 Kurt Pattyn <pattyn.kurt@gmail.com>.</text>
+
+FileName: ./src/websockets/qwebsocketserver.h
+SPDXID: SPDXRef-e816d9524f633bd7249a1801b1f6a956
+FileChecksum: SHA1: dec3536da3b15a705ec752517e98ca15a9db07db
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: LGPL-3.0-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2016 Kurt Pattyn <pattyn.kurt@gmail.com>.</text>
+
+FileName: ./src/websockets/qwebsocketserver_p.cpp
+SPDXID: SPDXRef-e1f469ae99b71ddb5b942773122e9a2f
+FileChecksum: SHA1: 2dca0b07d78e4fd87dd38bd98f9d7a06651565b6
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: LGPL-3.0-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2016 Kurt Pattyn <pattyn.kurt@gmail.com>.</text>
+
+FileName: ./src/websockets/qwebsocketserver_p.h
+SPDXID: SPDXRef-a4f7fe52de9331c6a105e3c85e5498e9
+FileChecksum: SHA1: 77a0f78813e973e2e0107fc62868f54a61b1a945
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-2.0-only
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: LGPL-3.0-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2016 Kurt Pattyn <pattyn.kurt@gmail.com>.</text>
+
+FileName: ./tests/CMakeLists.txt
+SPDXID: SPDXRef-304ba40888746d949c2327d2ac3491ae
+FileChecksum: SHA1: 24b153e6687c6681df8fc6caf4c17ca1543e7307
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (C) 2022 The Qt Company Ltd.</text>
+
+FileName: ./tests/auto/CMakeLists.txt
+SPDXID: SPDXRef-9c1d3328b9ccd65b35d719fcf5ff3a68
+FileChecksum: SHA1: a19cb6a0532df85576cb29adc9adbed4b6e8c17c
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (C) 2022 The Qt Company Ltd.</text>
+
+FileName: ./tests/auto/bic/data/QtWebSockets.5.10.0.linux-gcc-amd64.txt
+SPDXID: SPDXRef-91e7e76343f62c0ab7904395067e451b
+FileChecksum: SHA1: 0eb71ae804d5d0354ff53e4487ffb9b5c939c7dc
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./tests/auto/bic/data/QtWebSockets.5.11.0.linux-gcc-amd64.txt
+SPDXID: SPDXRef-54a4f6ad99478af45f38e6c471b0c865
+FileChecksum: SHA1: ce867c81f5acd4c1cb41c9b67019eddf8182949e
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./tests/auto/bic/data/QtWebSockets.5.12.0.linux-gcc-amd64.txt
+SPDXID: SPDXRef-536fb3d3c0433ef0a8ac27d681c0f063
+FileChecksum: SHA1: cd1e404b9da88f4fceafd9e0c5dcd552a560eeef
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./tests/auto/bic/data/QtWebSockets.5.13.0.linux-gcc-amd64.txt
+SPDXID: SPDXRef-7176033d6440d2fa6064a2407d909331
+FileChecksum: SHA1: 6a15f4c34f88293e2793b2273e117c5d0a0fff7a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./tests/auto/bic/data/QtWebSockets.5.14.0.linux-gcc-amd64.txt
+SPDXID: SPDXRef-36ae80dd528fae971ac482e74e9b92ea
+FileChecksum: SHA1: aaad46137af27f8b3b6f70fb3a36ee5920eb3f45
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./tests/auto/bic/data/QtWebSockets.5.6.0.linux-gcc-amd64.txt
+SPDXID: SPDXRef-67c0dbcedc6371fc29a43d5a92d464a1
+FileChecksum: SHA1: 31350dcf3f9af4796176054bc4f624dea86e32aa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./tests/auto/bic/data/QtWebSockets.5.7.0.linux-gcc-amd64.txt
+SPDXID: SPDXRef-4f0103d83e6a3080b310573fc35c6502
+FileChecksum: SHA1: 0d28aef605a5e23d9fe2104222ab746b05583630
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./tests/auto/bic/data/QtWebSockets.5.8.0.linux-gcc-amd64.txt
+SPDXID: SPDXRef-e689b979ec89cac601bc7b33eb8b0641
+FileChecksum: SHA1: 93d3035daa2e1b7bce6b120eb5c0cb27dfa0559a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./tests/auto/bic/data/QtWebSockets.5.9.0.linux-gcc-amd64.txt
+SPDXID: SPDXRef-6003d4bab712e6a7ffc6ea68b1055f91
+FileChecksum: SHA1: 26a7ae860a6fa54f00cb8bfd640e85db8e30eeb3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./tests/auto/cmake/CMakeLists.txt
+SPDXID: SPDXRef-461f9b133080d8c62bc097daf9632b23
+FileChecksum: SHA1: 6b5ceea7fc21df799deed34a1ac812f77dd91ed8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (C) 2022 The Qt Company Ltd.</text>
+
+FileName: ./tests/auto/qml/CMakeLists.txt
+SPDXID: SPDXRef-320964f0fa8d040dd59638ae43461aa9
+FileChecksum: SHA1: fc6419db85491054004f24f8015857e091047def
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (C) 2022 The Qt Company Ltd.</text>
+
+FileName: ./tests/auto/qml/qmlwebsockets/CMakeLists.txt
+SPDXID: SPDXRef-c4dd7f784043a5cb1081e0aba6d11993
+FileChecksum: SHA1: 5c14e90a63986cd4eed0e36b70c1d8dabe1a0168
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (C) 2022 The Qt Company Ltd.</text>
+
+FileName: ./tests/auto/qml/qmlwebsockets/tst_qmlwebsockets.cpp
+SPDXID: SPDXRef-76a6a7a3e9d25ba6e22cfb2f967fd4f1
+FileChecksum: SHA1: d6143bbd41ba4da26c9a31fd656aa54dea66a6b8
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2016 The Qt Company Ltd.</text>
+
+FileName: ./tests/auto/qml/qmlwebsockets/tst_qmlwebsockets.qml
+SPDXID: SPDXRef-ffd05e5e72b1c42003f4ecd372ed8e11
+FileChecksum: SHA1: ce0f8f8b157010c124db96cf6ab4b32e346a4ace
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2016 The Qt Company Ltd.</text>
+
+FileName: ./tests/auto/websockets/CMakeLists.txt
+SPDXID: SPDXRef-a5082ed3d3d7b9c9a02a645f7e35c15a
+FileChecksum: SHA1: aff4f085d9fbad93fdb21bdae103352cc5c90505
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (C) 2022 The Qt Company Ltd.</text>
+
+FileName: ./tests/auto/websockets/dataprocessor/CMakeLists.txt
+SPDXID: SPDXRef-0dd0c06aee19b4a1f872f02c705e88fd
+FileChecksum: SHA1: c3b830d948711ffb54f600cdcfdc76a3c9b90acf
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (C) 2022 The Qt Company Ltd.</text>
+
+FileName: ./tests/auto/websockets/dataprocessor/tst_dataprocessor.cpp
+SPDXID: SPDXRef-cb874da5ccb9aabc0efb278fe7e1a09f
+FileChecksum: SHA1: 0065bf4ab6d3e86d0801228728957486ac3b8561
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2016 Kurt Pattyn <pattyn.kurt@gmail.com>.</text>
+
+FileName: ./tests/auto/websockets/handshakerequest/CMakeLists.txt
+SPDXID: SPDXRef-91f4229f453522297502fb9730f1ad09
+FileChecksum: SHA1: bb75aa5e542402898b2c908bc517cab16142ae75
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (C) 2022 The Qt Company Ltd.</text>
+
+FileName: ./tests/auto/websockets/handshakerequest/tst_handshakerequest.cpp
+SPDXID: SPDXRef-a1a44fbdfb8ee0b0c6e815746a586ab7
+FileChecksum: SHA1: 48956117ff09d109e66fa6fc27af06953e3ef5e3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2016 Kurt Pattyn <pattyn.kurt@gmail.com>.</text>
+
+FileName: ./tests/auto/websockets/handshakeresponse/CMakeLists.txt
+SPDXID: SPDXRef-94a0e3f08b069502a6c3f5c6918c4bf9
+FileChecksum: SHA1: d6611ed955e4358f846cccc255a1466db64d1821
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (C) 2022 The Qt Company Ltd.</text>
+
+FileName: ./tests/auto/websockets/handshakeresponse/tst_handshakeresponse.cpp
+SPDXID: SPDXRef-fa5f0150817b0090f94fcd1e19a57a9b
+FileChecksum: SHA1: f73f2c66120e8948fd59ced383049f908e418047
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2016 Kurt Pattyn <pattyn.kurt@gmail.com>.</text>
+
+FileName: ./tests/auto/websockets/qdefaultmaskgenerator/CMakeLists.txt
+SPDXID: SPDXRef-a791aec1ac28948606fd6d63d34d5d9e
+FileChecksum: SHA1: c3a1f05a9df56b93945bd908bcfc2d67cdd2f92b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (C) 2022 The Qt Company Ltd.</text>
+
+FileName: ./tests/auto/websockets/qdefaultmaskgenerator/tst_defaultmaskgenerator.cpp
+SPDXID: SPDXRef-bd0041f3140819bf6e7b663a2666bdc9
+FileChecksum: SHA1: 2ac7c115119504fa61d62fda4ebffab737a3e17d
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2016 Kurt Pattyn <pattyn.kurt@gmail.com>.</text>
+
+FileName: ./tests/auto/websockets/qwebsocket/CMakeLists.txt
+SPDXID: SPDXRef-046ad02b2cbd8a715dffc426e463030f
+FileChecksum: SHA1: 5a044fcb2b5b64c6ede36e76ed36cbe19373df43
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (C) 2022 The Qt Company Ltd.</text>
+
+FileName: ./tests/auto/websockets/qwebsocket/tst_qwebsocket.cpp
+SPDXID: SPDXRef-26a225af2464c745d5601d017f2037c7
+FileChecksum: SHA1: f2fc95d74eb1851c349196b855c1a7b255bfba71
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2016 Kurt Pattyn <pattyn.kurt@gmail.com>.</text>
+
+FileName: ./tests/auto/websockets/qwebsocketcorsauthenticator/CMakeLists.txt
+SPDXID: SPDXRef-36be33e3afc06cffa47298b32de7de72
+FileChecksum: SHA1: 6954dac7552b7a2c10fa20a74c27b5b104e46ff3
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (C) 2022 The Qt Company Ltd.</text>
+
+FileName: ./tests/auto/websockets/qwebsocketcorsauthenticator/tst_qwebsocketcorsauthenticator.cpp
+SPDXID: SPDXRef-43cfa238858548fbb920df6d5b048ea7
+FileChecksum: SHA1: 3e0daf43178e604b738428050c55f3c91f98a53a
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2016 Kurt Pattyn <pattyn.kurt@gmail.com>.</text>
+
+FileName: ./tests/auto/websockets/qwebsocketserver/BLACKLIST
+SPDXID: SPDXRef-234e4d43df301eba9eb6263a37896a67
+FileChecksum: SHA1: 46cc033ac7a58cc3592721c048a25c7330de2434
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./tests/auto/websockets/qwebsocketserver/CMakeLists.txt
+SPDXID: SPDXRef-93f24fb732897724ca67a6f0b9810a3d
+FileChecksum: SHA1: d65b0017d47fa82db79bff6adddb3b9f689c6a93
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (C) 2022 The Qt Company Ltd.</text>
+
+FileName: ./tests/auto/websockets/qwebsocketserver/tst_qwebsocketserver.cpp
+SPDXID: SPDXRef-a58a45d87786d1c7727ebdb6982d16c5
+FileChecksum: SHA1: 86e3e7e787b8084f2a8a5369b3fe1fe21ea3c2e4
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2016 Kurt Pattyn <pattyn.kurt@gmail.com>.</text>
+
+FileName: ./tests/auto/websockets/shared/localhost.cert
+SPDXID: SPDXRef-74060bf2871dab4985b96ab4b03cc547
+FileChecksum: SHA1: 5b25cac9e8ceac344b37c53697d02f89fa9166b9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./tests/auto/websockets/shared/localhost.key
+SPDXID: SPDXRef-9325d7cbb9533dd6069f33cbef19f208
+FileChecksum: SHA1: c3a9bde0bcf946c6898237365d7adcb3bc06432b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./tests/auto/websockets/shared/selfsigned.cert
+SPDXID: SPDXRef-cc9c6c343cb084227ac35a676b6ad8c9
+FileChecksum: SHA1: 5a8311d45308740c7c6285fb11c34b5e9ab54c69
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./tests/auto/websockets/shared/selfsigned.key
+SPDXID: SPDXRef-ea0b5e22eeef24e465b469444918e38e
+FileChecksum: SHA1: 766630b5df6be95f70a43b0c0ae8364195e9a3aa
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./tests/auto/websockets/websocketframe/CMakeLists.txt
+SPDXID: SPDXRef-38eac2f8b92b1f9cb73471fef90fab2f
+FileChecksum: SHA1: 36277133bfc8c906a4a99fb3db1e91a285d80eb0
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (C) 2022 The Qt Company Ltd.</text>
+
+FileName: ./tests/auto/websockets/websocketframe/tst_websocketframe.cpp
+SPDXID: SPDXRef-1718a3c30bc26fbd38a2aeda5fe27c15
+FileChecksum: SHA1: e8cb66b29b44fd99e2ec7c611f7c8f5dae289513
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2016 Kurt Pattyn <pattyn.kurt@gmail.com>.</text>
+
+FileName: ./tests/auto/websockets/websocketprotocol/CMakeLists.txt
+SPDXID: SPDXRef-4927dbdcb4984eb7e0efcf7e6012862f
+FileChecksum: SHA1: 490150f5a86e90b00dc9f71288dbba79e4d1a506
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (C) 2022 The Qt Company Ltd.</text>
+
+FileName: ./tests/auto/websockets/websocketprotocol/tst_websocketprotocol.cpp
+SPDXID: SPDXRef-6585e0d15317b38de95f96c49e90cf31
+FileChecksum: SHA1: 17b63fba669882607418bdb50fc57247ddd83689
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2016 Kurt Pattyn <pattyn.kurt@gmail.com>.</text>
+
+FileName: ./tests/doc/README.qdocinc
+SPDXID: SPDXRef-e8707e5ef01ff2fc46c2c75fba7100c8
+FileChecksum: SHA1: 07b3b9265a17d2793bc6835a13994d9395c26a0b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GFDL-1.3-no-invariants-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./tests/global/global.cfg
+SPDXID: SPDXRef-a26f70967b61150ca763e9b7d6aa85b2
+FileChecksum: SHA1: bf3a19e2f4531731b5fc0a0b1419a9eb5341efdd
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./tests/manual/compliance/compliance.pro
+SPDXID: SPDXRef-27b99839f46242c8ea24d798487f8a34
+FileChecksum: SHA1: 4abe65c8b7edafc912b8b480b484a97780ad4457
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./tests/manual/compliance/tst_compliance.cpp
+SPDXID: SPDXRef-11ff2b1759fb4c1b1e366c89d429d556
+FileChecksum: SHA1: 40bce8c63d303224d757fbd8016b091e9dc51fd9
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2016 Kurt Pattyn <pattyn.kurt@gmail.com>.</text>
+
+FileName: ./tests/manual/manual.pro
+SPDXID: SPDXRef-645b54966401478aaeb9ff97fa6a4650
+FileChecksum: SHA1: a0eb17d47bee19f17349cefb29d6ac33fe557566
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+FileName: ./tests/manual/websockets/tst_websockets.cpp
+SPDXID: SPDXRef-45790c70d919c0955e20114266d84640
+FileChecksum: SHA1: 9e3a55cd90b309bdc03bc9976e82646730800054
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: GPL-3.0-only
+LicenseInfoInFile: LicenseRef-Qt-Commercial
+FileCopyrightText: <text>Copyright (C) 2016 Kurt Pattyn <pattyn.kurt@gmail.com>.</text>
+
+FileName: ./tests/manual/websockets/websockets.pro
+SPDXID: SPDXRef-08cb0ded1b682b282c035296edab9ca1
+FileChecksum: SHA1: 24a220206d2015b8e5bc7e1285de53e8f140815b
+LicenseConcluded: NOASSERTION
+LicenseInfoInFile: BSD-3-Clause
+FileCopyrightText: <text>Copyright (C) The Qt Company Ltd.</text>
+
+LicenseID: LicenseRef-Qt-Commercial
+LicenseName: NOASSERTION
+ExtractedText: <text>Licensees holding valid commercial Qt licenses may use this software in
+accordance with the the terms contained in a written agreement between
+you and The Qt Company. Alternatively, the terms and conditions that were
+accepted by the licensee when buying and/or downloading the
+software do apply.
+
+For the latest licensing terms and conditions, see https://www.qt.io/terms-conditions.
+For further information use the contact form at https://www.qt.io/contact-us.
+</text>
+

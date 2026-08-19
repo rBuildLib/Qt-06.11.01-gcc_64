@@ -1,0 +1,1 @@
+#include <QtBluetooth/qbluetooth.h> // IWYU pragma: export

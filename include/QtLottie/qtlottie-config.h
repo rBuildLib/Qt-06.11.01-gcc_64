@@ -1,0 +1,5 @@
+#ifndef QT_FEATURES_Lottie_src_qtlottie_config_h_H
+#define QT_FEATURES_Lottie_src_qtlottie_config_h_H
+
+
+#endif // QT_FEATURES_Lottie_src_qtlottie_config_h_H

@@ -1,0 +1,1 @@
+#include <QtStateMachine/qkeyeventtransition.h> // IWYU pragma: export

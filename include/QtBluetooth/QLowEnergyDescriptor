@@ -1,0 +1,1 @@
+#include <QtBluetooth/qlowenergydescriptor.h> // IWYU pragma: export

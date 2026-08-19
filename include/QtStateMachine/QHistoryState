@@ -1,0 +1,1 @@
+#include <QtStateMachine/qhistorystate.h> // IWYU pragma: export

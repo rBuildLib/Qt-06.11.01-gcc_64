@@ -1,0 +1,1 @@
+#include <QtScxml/qscxmltabledata.h> // IWYU pragma: export

@@ -1,0 +1,1 @@
+#include <QtSensors/qorientationsensor.h> // IWYU pragma: export
